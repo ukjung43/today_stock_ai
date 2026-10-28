@@ -3,7 +3,7 @@
 
 [site]
 # 첫 댓글에 걸 링크. "오늘의 국장" 사이트가 생기면 주소를 바꾸세요.
-url = "https://blog.naver.com/ukjung43"
+url = "https://todaygukjang.kr/"
 handle = "today_stock.ai"
 
 [claude]
