@@ -2,7 +2,7 @@ name: Threads 자동 게시
 
 on:
   schedule:
-    - cron: "30 23 * * 0-4" # 장 전: 한국 시간 월~금 08:30
+    - cron: "0 23 * * 0-4"  # 장 전: 한국 시간 월~금 08:00
     - cron: "0 7 * * 1-5"   # 장 마감: 한국 시간 월~금 16:00
   workflow_dispatch:
     inputs:
@@ -50,7 +50,7 @@ jobs:
         run: |
           slot="$SLOT_INPUT"
           if [ -z "$slot" ]; then
-            if [ "$SCHEDULE" = "30 23 * * 0-4" ]; then slot=morning; else slot=close; fi
+            if [ "$SCHEDULE" = "0 23 * * 0-4" ]; then slot=morning; else slot=close; fi
           fi
           extra=""
           if [ "$FORCE" = "true" ]; then extra="--force"; fi

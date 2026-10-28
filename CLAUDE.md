@@ -10,7 +10,7 @@ Threads 계정 @today_stock.ai 에 국장 빅이슈를 자동으로 올리는 �
 - `bot/checks.py` 규칙 검사: 데이터에 없는 숫자, 부호, 금지어, 글자 수
 - `bot/card.py` 1080x1350 카드 (상승 빨강, 하락 파랑)
 - `bot/threads.py` Threads 공식 API
-- `.github/workflows/post.yml` 08:30/16:00 KST 초안 → `threads` 환경 → 게시 (현재 승인 없이 자동. Required reviewers를 다시 넣으면 승인제)
+- `.github/workflows/post.yml` 08:00/16:00 KST 초안 → `threads` 환경 → 게시 (현재 승인 없이 자동. Required reviewers를 다시 넣으면 승인제)
 - `config.toml` 시간대별 종목, 피드, 금지어, 역할별 effort
 
 ## 지켜야 할 것
