@@ -1,0 +1,72 @@
+# today_stock.ai 설정 파일
+# 여기만 바꾸면 대부분의 동작을 조절할 수 있어요.
+
+[site]
+# 첫 댓글에 걸 링크. "오늘의 국장" 사이트가 생기면 주소를 바꾸세요.
+url = "https://blog.naver.com/ukjung43"
+handle = "today_stock.ai"
+
+[claude]
+model = "claude-opus-5-5"
+# 작가가 반려당하면 다시 쓰는 최대 횟수
+max_attempts = 3
+
+# 팀 역할별 생각 깊이: low | medium | high
+# 각 역할의 지침은 prompts/<역할>.md
+[roles.researcher]   # 빅이슈 고르기
+effort = "low"
+[roles.writer]       # 스레드 글쓰기
+effort = "low"
+[roles.editor]       # 사실·투자권유·말투 검수
+effort = "medium"
+
+[post]
+max_chars = 450        # Threads 한도는 500자
+reply_max_chars = 300
+card_comment_max_chars = 25
+# 승인이 늦어져서 이 시간보다 오래된 초안은 올리지 않아요
+max_draft_age_hours = 3
+
+[slots.morning]
+label = "장 전"
+title = "오늘 국장 관전 포인트"
+news_hours = 16
+symbols = [
+  { symbol = "^GSPC", name = "S&P500", kind = "index" },
+  { symbol = "^IXIC", name = "나스닥", kind = "index" },
+  { symbol = "^DJI", name = "다우", kind = "index" },
+  { symbol = "^SOX", name = "필라델피아 반도체", kind = "index" },
+  { symbol = "NVDA", name = "엔비디아", kind = "usd" },
+  { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
+  { symbol = "BZ=F", name = "브렌트유", kind = "usd" },
+]
+
+[slots.close]
+label = "장 마감"
+title = "오늘 국장 3줄 요약"
+news_hours = 9
+symbols = [
+  { symbol = "^KS11", name = "코스피", kind = "index" },
+  { symbol = "^KQ11", name = "코스닥", kind = "index" },
+  { symbol = "005930.KS", name = "삼성전자", kind = "krw" },
+  { symbol = "000660.KS", name = "SK하이닉스", kind = "krw" },
+  { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
+]
+
+[news]
+max_items = 30
+feeds = [
+  { name = "연합뉴스 경제", url = "https://www.yna.co.kr/rss/economy.xml" },
+  { name = "연합뉴스 마켓+", url = "https://www.yna.co.kr/rss/market.xml" },
+  { name = "한국경제 증권", url = "https://www.hankyung.com/feed/finance" },
+]
+
+[safety]
+# 데이터에 없어도 글에 써도 되는 숫자 (계정 밈)
+allowed_numbers = ["-65%"]
+# 글에 이 표현이 있으면 올리지 않아요 (종목 추천·리딩 방지)
+banned = [
+  "매수하세요", "매도하세요", "사세요", "파세요", "담으세요", "추천주", "추천 종목",
+  "목표가", "급등 예정", "오를 종목", "무조건", "수익 보장", "리딩", "따라 사",
+  "매수 추천", "매도 추천", "지금 사", "풀매수",
+]

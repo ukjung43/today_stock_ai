@@ -1,0 +1,93 @@
+name: Threads 자동 게시
+
+on:
+  schedule:
+    - cron: "30 23 * * 0-4" # 장 전: 한국 시간 월~금 08:30
+    - cron: "0 7 * * 1-5"   # 장 마감: 한국 시간 월~금 16:00
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "어떤 글을 만들까요?"
+        type: choice
+        options: [close, morning]
+        default: close
+      force:
+        description: "휴장일 검사 건너뛰기"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# No workflow-level concurrency: a publish job waiting for approval must not block the next slot.
+# Only the draft job is serialized, so two runs never push to main at the same time.
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: threads-draft
+      cancel-in-progress: false
+    outputs:
+      skip: ${{ steps.draft.outputs.skip }}
+      dir: ${{ steps.draft.outputs.dir }}
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: 한글 폰트 설치
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+      - run: pip install -r requirements.txt
+      - name: 초안 만들기
+        id: draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCHEDULE: ${{ github.event.schedule }}
+          SLOT_INPUT: ${{ inputs.slot }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          slot="$SLOT_INPUT"
+          if [ -z "$slot" ]; then
+            if [ "$SCHEDULE" = "30 23 * * 0-4" ]; then slot=morning; else slot=close; fi
+          fi
+          extra=""
+          if [ "$FORCE" = "true" ]; then extra="--force"; fi
+          python -m bot.main draft --slot "$slot" $extra
+      - name: 이미지 공개용으로 커밋
+        id: commit
+        if: steps.draft.outputs.skip == 'false'
+        env:
+          DIR: ${{ steps.draft.outputs.dir }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DIR"
+          git commit -m "draft: $DIR"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "![card](https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)/$DIR/card.png)" >> "$GITHUB_STEP_SUMMARY"
+
+  publish:
+    needs: draft
+    if: needs.draft.outputs.skip == 'false'
+    runs-on: ubuntu-latest
+    # 저장소 Settings → Environments → threads 에서 "Required reviewers"를 켜면 승인 후에만 이 단계가 실행돼요.
+    environment: threads
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.draft.outputs.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Threads에 게시
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: >
+          python -m bot.main publish
+          --draft "${{ needs.draft.outputs.dir }}"
+          --image-base "https://raw.githubusercontent.com/${{ github.repository }}/${{ needs.draft.outputs.sha }}"

@@ -1,0 +1,30 @@
+name: Threads 토큰 갱신
+
+# Threads 장기 토큰은 60일이면 만료돼요. 매주 월요일에 새 토큰으로 바꿔 저장해요.
+# GH_PAT 시크릿(이 저장소의 Secrets 쓰기 권한이 있는 토큰)이 필요해요.
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 토큰 갱신
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: python -m bot.main refresh-token --out "$RUNNER_TEMP/token"
+      - name: 새 토큰 저장
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          echo "::add-mask::$(cat "$RUNNER_TEMP/token")"
+          gh secret set THREADS_ACCESS_TOKEN --repo "${{ github.repository }}" < "$RUNNER_TEMP/token"
+          rm "$RUNNER_TEMP/token"
