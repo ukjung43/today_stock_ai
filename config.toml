@@ -66,7 +66,7 @@ symbols = [
 ]
 
 [news]
-max_items = 200  # 실적 발표 같은 날은 몇 시간에 100건 넘게 나와요. 너무 적으면 아침 큰 뉴스가 밀려나요
+max_items = 100  # 실적 발표 같은 날은 한 시간에 50건쯤 나와요. 너무 적으면 아침 큰 뉴스가 밀려나요
 feeds = [
   { name = "연합뉴스 경제", url = "https://www.yna.co.kr/rss/economy.xml" },
   { name = "연합뉴스 마켓+", url = "https://www.yna.co.kr/rss/market.xml" },
