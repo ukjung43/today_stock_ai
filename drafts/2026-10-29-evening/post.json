@@ -1,0 +1,171 @@
+{
+  "slot": "evening",
+  "created_at": "2026-10-29T21:50:35.016197+09:00",
+  "post": "나스닥100 선물 -1.36%… 빅테크 AI 투자 상향엔 브레이크 📉\n\n📌 오늘 밤 볼 것\n구글·MS가 설비투자 전망 상향을 미뤘고, 알파벳 실적은 기대 미달\n미 3분기 GDP 3.4%로 예상 상회, 근데 9월 물가 상승세가 빨라졌대오\n라가르드 ECB 총재, 내년 2월 조기 사임\n\n👀 미장 뉴스 탄 종목\n• 일라이릴리 — 젭바운드·마운자로 수요로 실적 예상 상회, 매출 전망 상향\n• 머크 — 분기 실적 예상 상회, 이익 전망 상향\n• 도어대시 — 인스타카트 170억달러에 인수\n\n오늘 밤 한 줄 → S&P500 선물 -0.49%, AI 투자 속도와 물가 사이 눈치게임. 국장에서는 반도체 쪽이 연결돼오\n\n🐱 깨알 상식: 캐펙스 — 공장·데이터센터 같은 설비에 쓰는 투자 돈\n\n오늘 밤 볼 것 한눈에 보기는 첫 댓글 🐾\n#나스닥",
+  "reply": "오늘 밤 볼 것 한눈에 보기 🐱\nhttps://todaygukjang.kr/",
+  "card_comment": "AI 투자 상향에 브레이크",
+  "problems": [],
+  "attempts": 3,
+  "brief": {
+    "issues": [
+      {
+        "topic": "구글·MS 설비투자(capex) 전망 상향 보류, 알파벳 실적 미스… AI 투자 확대에 제동",
+        "why": "AI 빅테크의 투자 속도 조절 신호는 기술주 중심 나스닥 흐름에 직접 영향을 줄 수 있음",
+        "headline_ids": [
+          5,
+          6
+        ],
+        "related": [
+          "나스닥100 선물",
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "미 3분기 GDP 3.4%로 예상 상회, 9월 인플레이션은 가속… 금리 동결 속 워시 행보에 월가 촉각",
+        "why": "성장·물가 지표와 연준 관련 불확실성이 금리 전망과 증시 방향을 좌우",
+        "headline_ids": [
+          3,
+          4,
+          87,
+          64
+        ],
+        "related": [
+          "S&P500 선물",
+          "나스닥100 선물",
+          "원/달러 환율"
+        ]
+      },
+      {
+        "topic": "라가르드 ECB 총재 내년 2월 조기 사임 발표",
+        "why": "유럽 통화정책 수장 교체로 글로벌 금리·환율 기대에 변수",
+        "headline_ids": [
+          2,
+          19
+        ],
+        "related": [
+          "원/달러 환율"
+        ]
+      },
+      {
+        "topic": "[종목] 일라이릴리·머크 — 실적 예상 상회, 전망 상향",
+        "why": "대형 제약주의 호실적이 기술주 약세 속 지수 방어 요인이 될 수 있음",
+        "headline_ids": [
+          13,
+          15
+        ],
+        "related": [
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 도어대시 — 인스타카트 170억달러에 인수",
+        "why": "대형 M&A로 관련 종목 주가 변동성 확대 가능",
+        "headline_ids": [
+          1
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      }
+    ],
+    "term": "캐펙스(Capex)",
+    "term_explain": "기업이 공장·데이터센터 같은 설비에 쓰는 투자 돈. 빅테크 캐펙스가 늘면 반도체 등 AI 관련 기업 매출 기대가 커져요.",
+    "mood": "눈치게임"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7745.5,
+      "prev_close": 7783.25,
+      "change_pct": -0.48501589952782975,
+      "date": "2026-10-29",
+      "price_text": "7,745.50",
+      "change_text": "-0.49%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 29572.25,
+      "prev_close": 29979.5,
+      "change_pct": -1.358428259310529,
+      "date": "2026-10-29",
+      "price_text": "29,572.25",
+      "change_text": "-1.36%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1338.04,
+      "prev_close": 1342.95,
+      "change_pct": -0.36561301612123565,
+      "date": "2026-10-29",
+      "price_text": "1,338.04원",
+      "change_text": "-0.37%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 110.53,
+      "prev_close": 111.64,
+      "change_pct": -0.994267287710493,
+      "date": "2026-10-29",
+      "price_text": "$110.53",
+      "change_text": "-0.99%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DoorDash to acquire Instacart for $17 billion",
+      "link": "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html",
+      "source": "CNBC",
+      "published": "2026-10-29T12:48:50+00:00"
+    },
+    {
+      "title": "President of the European Central Bank Christine Lagarde to step down. Here's who is tipped to replace her",
+      "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+      "source": "CNBC",
+      "published": "2026-10-29T12:43:38+00:00"
+    },
+    {
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "source": "CNBC",
+      "published": "2026-10-29T12:42:19+00:00"
+    },
+    {
+      "title": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
+      "link": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+      "source": "CNBC",
+      "published": "2026-10-29T12:10:29+00:00"
+    },
+    {
+      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+      "link": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "source": "CNBC",
+      "published": "2026-10-29T12:09:47+00:00"
+    },
+    {
+      "title": "Eli Lilly blows past estimates, hikes sales outlook as Zepbound and Mounjaro demand surge again",
+      "link": "https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html",
+      "source": "CNBC",
+      "published": "2026-10-29T11:44:57+00:00"
+    },
+    {
+      "title": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+      "link": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+      "source": "CNBC",
+      "published": "2026-10-29T11:24:38+00:00"
+    },
+    {
+      "title": "라가르드 ECB 총재, 내년 2월 조기 사임",
+      "link": "https://www.yna.co.kr/view/AKR20261029201900082",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-10-29T10:46:38+00:00"
+    }
+  ]
+}

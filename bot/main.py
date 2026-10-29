@@ -1,6 +1,6 @@
 """today_stock.ai command line.
 
-  python -m bot.main draft --slot morning|lunch|close [--no-ai] [--force]
+  python -m bot.main draft --slot morning|lunch|close|evening [--no-ai] [--force]
   python -m bot.main publish --draft drafts/2026-10-28-close --image-base https://raw.githubusercontent.com/OWNER/REPO/SHA
   python -m bot.main whoami
   python -m bot.main refresh-token --out token.txt
@@ -58,7 +58,8 @@ def cmd_draft(args, cfg) -> int:
         _github_summary(f"⏸️ {quotes[0].name} 오늘 시세 없음 (마지막 {quotes[0].date})")
         return 0
 
-    headlines = fetch_headlines(cfg["news"]["feeds"], slot["news_hours"], cfg["news"]["max_items"])
+    feeds = cfg["news"]["feeds"] + slot.get("extra_feeds", [])
+    headlines = fetch_headlines(feeds, slot["news_hours"], cfg["news"]["max_items"])
     write = write_with_template if args.no_ai else write_with_claude
     written = write(cfg, slot, today, quotes, headlines)
 
@@ -154,7 +155,7 @@ def main() -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     p = sub.add_parser("draft", help="글과 이미지 초안 만들기")
-    p.add_argument("--slot", choices=["morning", "lunch", "close"], required=True)
+    p.add_argument("--slot", choices=["morning", "lunch", "close", "evening"], required=True)
     p.add_argument("--no-ai", action="store_true", help="Claude 없이 템플릿으로 (미리보기용)")
     p.add_argument("--force", action="store_true", help="휴장일 검사 건너뛰기")
     p.add_argument("--out", default="drafts")

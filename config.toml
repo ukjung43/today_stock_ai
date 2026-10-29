@@ -65,6 +65,22 @@ symbols = [
   { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
 ]
 
+[slots.evening]
+label = "밤 미장"
+title = "오늘 밤 미장 관전 포인트"
+news_hours = 12
+# 미국 일정·실적은 국내 기사 제목에 잘 안 나와서, 이 글만 CNBC 제목도 같이 읽어요 (제목·링크만)
+extra_feeds = [
+  { name = "CNBC", url = "https://www.cnbc.com/id/100003114/device/rss/rss.html" },
+  { name = "CNBC 경제", url = "https://www.cnbc.com/id/20910258/device/rss/rss.html" },
+]
+symbols = [
+  { symbol = "ES=F", name = "S&P500 선물", kind = "index" },
+  { symbol = "NQ=F", name = "나스닥100 선물", kind = "index" },
+  { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
+  { symbol = "BZ=F", name = "브렌트유", kind = "usd" },
+]
+
 [news]
 max_items = 100  # 실적 발표 같은 날은 한 시간에 50건쯤 나와요. 너무 적으면 아침 큰 뉴스가 밀려나요
 feeds = [
