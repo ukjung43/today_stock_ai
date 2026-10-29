@@ -41,6 +41,18 @@ symbols = [
   { symbol = "BZ=F", name = "브렌트유", kind = "usd" },
 ]
 
+[slots.lunch]
+label = "점심 장중"
+title = "오전장 한눈에 보기"
+news_hours = 6
+symbols = [
+  { symbol = "^KS11", name = "코스피", kind = "index" },
+  { symbol = "^KQ11", name = "코스닥", kind = "index" },
+  { symbol = "005930.KS", name = "삼성전자", kind = "krw" },
+  { symbol = "000660.KS", name = "SK하이닉스", kind = "krw" },
+  { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
+]
+
 [slots.close]
 label = "장 마감"
 title = "오늘 국장 3줄 요약"

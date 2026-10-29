@@ -41,29 +41,28 @@ class Quote:
 def fetch_quote(symbol: str, name: str, kind: str) -> Quote:
     resp = requests.get(
         CHART_URL.format(symbol=quote(symbol)),
-        params={"range": "10d", "interval": "1d"},
+        params={"range": "1d", "interval": "1d"},
         headers=HEADERS,
         timeout=20,
     )
     resp.raise_for_status()
-    result = resp.json()["chart"]["result"][0]
-    tz = ZoneInfo(result["meta"]["exchangeTimezoneName"])
-    closes = [
-        (datetime.fromtimestamp(ts, tz).date(), c)
-        for ts, c in zip(result["timestamp"], result["indicators"]["quote"][0]["close"])
-        if c is not None
-    ]
-    if len(closes) < 2:
+    # Use the quote fields, not the daily bars: Yahoo sometimes blanks or revises a past bar's close,
+    # which silently shifted "previous close" back a day (e.g. KOSPI +8% instead of +1.35%).
+    meta = resp.json()["chart"]["result"][0]["meta"]
+    last, prev, ts = meta.get("regularMarketPrice"), meta.get("chartPreviousClose"), meta.get("regularMarketTime")
+    if not last or not prev or not ts:
         raise RuntimeError(f"{symbol}: 시세 데이터가 부족해요")
-    (last_date, last), (_, prev) = closes[-1], closes[-2]
+    change_pct = (last / prev - 1) * 100
+    if abs(change_pct) > 30:  # beyond KRX's daily limit: treat as bad data rather than post it
+        raise RuntimeError(f"{symbol}: 등락률 {change_pct:+.2f}% 는 데이터 오류로 보여요")
     return Quote(
         symbol=symbol,
         name=name,
         kind=kind,
         price=last,
         prev_close=prev,
-        change_pct=(last / prev - 1) * 100,
-        date=last_date.isoformat(),
+        change_pct=change_pct,
+        date=datetime.fromtimestamp(ts, ZoneInfo(meta["exchangeTimezoneName"])).date().isoformat(),
     )
 
 
