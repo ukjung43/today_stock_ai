@@ -57,30 +57,34 @@ def render_card(out: Path, slot: dict, today: str, quotes: list[Quote], comment:
     d.text((pad, 330), hero.fmt_price(), font=_font("bold", 120), fill=FG)
     d.text((pad, 480), hero.fmt_pct(), font=_font("bold", 96), fill=_color(hero))
 
-    top, row_h = 650, 92
+    # Rows shrink so the panel always ends above the comment line, however many quotes a slot has.
+    top, comment_y = 640, H - 235
+    panel_room = comment_y - 50 - top
+    row_h = min(92, panel_room // max(len(rest), 1))
+    font_size = min(38, int(row_h * 0.45))
     d.rounded_rectangle((pad - 24, top - 24, W - pad + 24, top + row_h * len(rest) + 8), radius=28, fill=PANEL)
-    name_font, val_font = _font("regular", 38), _font("bold", 38)
+    name_font, val_font = _font("regular", font_size), _font("bold", font_size)
+    pct_col = max((d.textlength(q.fmt_pct(), font=val_font) for q in rest), default=0)
     for i, q in enumerate(rest):
-        y = top + i * row_h
+        y = top + i * row_h + (row_h - font_size) // 2 - 10
         d.text((pad, y), q.name, font=name_font, fill=FG)
         pct = q.fmt_pct()
-        pct_w = d.textlength(pct, font=val_font)
-        d.text((W - pad - pct_w, y), pct, font=val_font, fill=_color(q))
+        d.text((W - pad - d.textlength(pct, font=val_font), y), pct, font=val_font, fill=_color(q))
         price = q.fmt_price()
-        d.text((W - pad - pct_w - 40 - d.textlength(price, font=name_font), y), price, font=name_font, fill=MUTED)
+        d.text((W - pad - pct_col - 40 - d.textlength(price, font=name_font), y), price, font=name_font, fill=MUTED)
 
     mascot_path = ROOT / "assets" / "mascot.png"
     comment_width = W - 2 * pad
     if mascot_path.exists():
         mascot = Image.open(mascot_path).convert("RGBA")
-        mascot.thumbnail((240, 240))
-        img.paste(mascot, (W - pad - mascot.width, H - 150 - mascot.height), mascot)
+        mascot.thumbnail((130, 130))  # must fit between the panel and the footer
+        img.paste(mascot, (W - pad - mascot.width, H - 130 - mascot.height), mascot)
         comment_width -= mascot.width + 20
 
     size = 48
     while size > 28 and d.textlength(comment, font=_font("bold", size)) > comment_width:
         size -= 2
-    d.text((pad, H - 250), comment, font=_font("bold", size), fill=FG)
+    d.text((pad, comment_y), comment, font=_font("bold", size), fill=FG)
     d.text((pad, H - 120), f"@{handle} · AI가 정리 · 종목 추천X", font=_font("regular", 30), fill=MUTED)
 
     out.parent.mkdir(parents=True, exist_ok=True)
