@@ -2,8 +2,10 @@
 # 여기만 바꾸면 대부분의 동작을 조절할 수 있어요.
 
 [site]
-# 첫 댓글에 걸 링크. "오늘의 국장" 사이트가 생기면 주소를 바꾸세요.
+# 첫 댓글은 보통 추가 설명만 달고, 아래 요일의 아래 글에만 끝에 이 링크를 붙여요.
 url = "https://todaygukjang.kr/"
+link_weekdays = ["화", "금"]
+link_slots = ["close"]
 handle = "today_stock.ai"
 
 [claude]

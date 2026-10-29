@@ -43,11 +43,11 @@ WRITE_SCHEMA = {
     "type": "object",
     "properties": {
         "post": {"type": "string"},
-        "reply_lead": {"type": "string"},
+        "reply": {"type": "string"},
         "card_comment": {"type": "string"},
         "used_headlines": {"type": "array", "items": {"type": "integer"}},
     },
-    "required": ["post", "reply_lead", "card_comment", "used_headlines"],
+    "required": ["post", "reply", "card_comment", "used_headlines"],
     "additionalProperties": False,
 }
 
@@ -69,7 +69,7 @@ class WriterError(RuntimeError):
 @dataclass
 class Written:
     post: str
-    reply_lead: str
+    reply: str
     card_comment: str
     used_headlines: list[int] = field(default_factory=list)
     problems: list[str] = field(default_factory=list)
@@ -122,7 +122,7 @@ class Team:
         return brief
 
     def review(self, written: Written, brief: dict) -> list[str]:
-        draft = {"post": written.post, "reply_lead": written.reply_lead, "card_comment": written.card_comment}
+        draft = {"post": written.post, "reply": written.reply, "card_comment": written.card_comment}
         content = (
             f"{self.context}\n\n<brief>\n{json.dumps(brief, ensure_ascii=False, indent=1)}\n</brief>\n\n"
             f"<draft>\n{json.dumps(draft, ensure_ascii=False, indent=1)}\n</draft>\n\n초안을 검수해주세요."
@@ -146,7 +146,7 @@ class Team:
             data, resp = self._ask("writer", messages, WRITE_SCHEMA)
             written = Written(**data, brief=brief, attempts=attempt)
             written.problems = find_problems(written.post, allowed, banned, limits["max_chars"])
-            written.problems += find_problems(written.reply_lead, allowed, banned, limits["reply_max_chars"])
+            written.problems += find_problems(written.reply, allowed, banned, limits["reply_max_chars"])
             written.problems += find_problems(written.card_comment, allowed, banned, limits["card_comment_max_chars"])
             if not written.problems:
                 written.problems = self.review(written, brief)
@@ -172,7 +172,7 @@ def write_with_template(cfg: dict, slot: dict, today: str, quotes: list[Quote], 
     post = "\n".join(
         [f"{slot['title']} ({today})", f"{hero.name} {hero.fmt_pct()}… 내 계좌는 여전히 -65%에오", "", *bullets, *news, "", "자세한 정리는 댓글 👇"]
     )
-    written = Written(post=post, reply_lead="오늘 국장 자세한 정리는 여기 🐾", card_comment="오늘도 공부하는 주린이")
+    written = Written(post=post, reply="오늘 국장 추가 설명 자리예요 🐾", card_comment="오늘도 공부하는 주린이")
     allowed = allowed_numbers(quotes, headlines, _always_allowed(cfg, today))
     written.problems = find_problems(post, allowed, cfg["safety"]["banned"], cfg["post"]["max_chars"])
     return written

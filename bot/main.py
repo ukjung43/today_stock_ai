@@ -65,7 +65,11 @@ def cmd_draft(args, cfg) -> int:
 
     draft_dir = Path(args.out) / f"{now:%Y-%m-%d}-{args.slot}"
     render_card(draft_dir / "card.png", slot, today, quotes, written.card_comment, cfg["site"]["handle"])
-    reply = f"{written.reply_lead}\n{cfg['site']['url']}"
+    site = cfg["site"]
+    reply = written.reply
+    # The site link only goes on some posts; every reply carries the extra explanation.
+    if args.slot in site.get("link_slots", []) and WEEKDAYS[now.weekday()] in site.get("link_weekdays", []):
+        reply += f"\n\n'오늘의 국장'에서 더 보기 🐾\n{site['url']}"
     used = [headlines[i - 1] for i in written.used_headlines if 0 < i <= len(headlines)]
     record = {
         "slot": args.slot,

@@ -19,7 +19,7 @@ Threads 계정 [@today_stock.ai](https://www.threads.com/@today_stock.ai)에 매
    - **편집장** (`prompts/editor.md`): 지어낸 사실, 상승·하락 방향, 투자 권유, 말투
    - 걸리면 작가가 고쳐 쓰고, 3번 안에 통과 못 하면 올리지 않아요.
 5. 이미지 카드를 그려요 (`drafts/날짜-slot/card.png`).
-6. **승인하면** Threads에 이미지와 글을 올리고, 첫 댓글에 사이트 링크를 달아요.
+6. **승인하면** Threads에 이미지와 글을 올리고, 첫 댓글에 추가 설명을 달아요. 사이트 링크는 `config.toml`의 `link_weekdays`·`link_slots`에 맞는 글에만 붙여요.
 
 ## 내 PC에서 미리보기
 
