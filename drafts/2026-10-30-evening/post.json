@@ -1,0 +1,190 @@
+{
+  "slot": "evening",
+  "created_at": "2026-10-30T22:37:08.596539+09:00",
+  "post": "나스닥100 선물 -2.56%… AI 돈줄 걱정에 밤이 무섭읍니다 😱\n\n📌 오늘 밤 볼 것\nS&P500 선물 -1.12%, 빅테크 실적 실망에 기술주 약세. 국장은 오늘 3%대 급락\n바이낸스 63억달러 해킹, 사상 최대 코인 탈취\n이란 \"호르무즈서 유조선 4척 기뢰 피격\" 주장, 브렌트유 $113.02 (+2.00%)\n\n👀 미장 뉴스 탄 종목\n• 셰브론·엑슨 — 경유값 강세로 정제 이익 늘어 실적 예상 웃돌아\n• 스타벅스 — 매출은 기대 못 미쳤지만 미국 회복은 진행 중\n\n오늘 밤 한 줄 → 국장에서는 반도체 쪽이 나스닥 기술주 흐름과 연결돼오\n\n🐱 깨알 상식: 외국인 순매도 — 외국인이 산 것보다 판 게 더 많은 상태\n\n더 자세한 얘기는 첫 댓글 🐾\n#나스닥",
+  "reply": "🐱 한 번 더 풀어보면\n미국 빅테크 실적이 실망스러웠어오.\nAI에 큰돈을 쏟는데 성장이 계속될지 의구심이 커진 거예요.\n그 걱정이 반도체로 번져서 외국인이 국장에서 1.6조를 팔았어요.\n그래서 오늘 밤 나스닥 흐름이 국장 반도체와 연결되는 핵심 변수래오.",
+  "card_comment": "AI 걱정이 밤까지 간다",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "美 빅테크 실적 부진·기술주 급락에 코스피·코스닥 3%대 급락, 외국인 1.6조 순매도",
+        "why": "AI·반도체 성장 의구심이 미 기술주와 국장을 동시에 끌어내려 오늘 밤 나스닥 흐름이 핵심 변수",
+        "headline_ids": [
+          83,
+          93,
+          31,
+          37,
+          17,
+          12
+        ],
+        "related": [
+          "나스닥100 선물",
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "바이낸스 63억달러(약 8.4조원) 해킹, 사상 최대 암호화폐 탈취…북한 배후 가능성 제기",
+        "why": "위험회피 심리를 키우는 악재로 코인·보안 관련 투자심리에 영향",
+        "headline_ids": [
+          4,
+          8,
+          98,
+          28,
+          2,
+          11,
+          62
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "이란 \"호르무즈서 유조선 4척 기뢰 피격\" 주장, 정유사 실적 호조와 맞물린 유가 강세",
+        "why": "중동 긴장과 정제마진 급등이 유가를 밀어올려 에너지주와 인플레이션 우려로 연결",
+        "headline_ids": [
+          81,
+          10,
+          33
+        ],
+        "related": [
+          "브렌트유",
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 현대차·기아 — 기아 3분기 최대 매출에도 영업이익 쇼크, 현대차 6년만의 분기매출 감소로 3%대 약세",
+        "why": "국장 대표 수출주 실적 실망이 지수 하락에 무게를 더함",
+        "headline_ids": [
+          32,
+          92,
+          55
+        ],
+        "related": [
+          "원/달러 환율"
+        ]
+      },
+      {
+        "topic": "[종목] 효성중공업 — 3분기 영업이익 2천435억원(10.8%↑), 수주잔고 19조 역대 최고",
+        "why": "급락장 속 전력기기 수주 모멘텀이 확인된 실적",
+        "headline_ids": [
+          38,
+          86
+        ],
+        "related": []
+      }
+    ],
+    "term": "외국인 순매도",
+    "term_explain": "외국인 투자자가 산 금액보다 판 금액이 더 많은 상태로, 오늘 국장에선 1.6조원이 빠져나가며 급락을 키웠어요.",
+    "mood": "패닉"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7667.5,
+      "prev_close": 7754.25,
+      "change_pct": -1.1187413353967224,
+      "date": "2026-10-30",
+      "price_text": "7,667.50",
+      "change_text": "-1.12%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28804.0,
+      "prev_close": 29562.0,
+      "change_pct": -2.564102564102566,
+      "date": "2026-10-30",
+      "price_text": "28,804.00",
+      "change_text": "-2.56%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1334.62,
+      "prev_close": 1338.99,
+      "change_pct": -0.32636539481252225,
+      "date": "2026-10-30",
+      "price_text": "1,334.62원",
+      "change_text": "-0.33%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 113.02,
+      "prev_close": 110.8,
+      "change_pct": 2.0036101083032554,
+      "date": "2026-10-30",
+      "price_text": "$113.02",
+      "change_text": "+2.00%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "코스피·코스닥, 美 빅테크 실적 부진에 3%대 급락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261030131551008",
+      "source": "연합뉴스 경제",
+      "published": "2026-10-30T07:06:05+00:00"
+    },
+    {
+      "title": "美 기술주 급락에 반도체주 '우수수'…삼전·닉스 3∼7%↓(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261030040652008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-10-30T06:50:12+00:00"
+    },
+    {
+      "title": "AI 돈줄 마른다…반도체 성장 의구심에 韓주식 던진 외국인",
+      "link": "https://www.hankyung.com/article/2026103068781",
+      "source": "한국경제 증권",
+      "published": "2026-10-30T09:02:35+00:00"
+    },
+    {
+      "title": "\"외국인 1.6조 던졌다\"…미국서 날아온 악재에 '비명'",
+      "link": "https://www.hankyung.com/article/2026103068971",
+      "source": "한국경제 증권",
+      "published": "2026-10-30T08:56:17+00:00"
+    },
+    {
+      "title": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
+      "link": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
+      "source": "CNBC",
+      "published": "2026-10-30T11:00:01+00:00"
+    },
+    {
+      "title": "Hackers steal $6.3 billion from Binance in biggest-ever cryptocurrency theft",
+      "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+      "source": "CNBC",
+      "published": "2026-10-30T13:11:14+00:00"
+    },
+    {
+      "title": "바이낸스, 8.4조원 해킹 피해 추정…TRM랩스 \"북한 배후\"(종합3보)",
+      "link": "https://www.yna.co.kr/view/AKR20261030022453009",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-10-30T06:44:39+00:00"
+    },
+    {
+      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+      "link": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+      "source": "CNBC",
+      "published": "2026-10-30T07:12:49+00:00"
+    },
+    {
+      "title": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
+      "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+      "source": "CNBC",
+      "published": "2026-10-30T11:35:51+00:00"
+    },
+    {
+      "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
+      "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-10-30T13:29:50+00:00"
+    }
+  ]
+}
