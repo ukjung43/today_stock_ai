@@ -2,10 +2,11 @@ name: Threads 자동 게시
 
 on:
   schedule:
-    - cron: "0 23 * * 0-4"  # 장 전: 한국 시간 월~금 08:00
-    - cron: "0 3 * * 1-5"   # 점심 장중: 한국 시간 월~금 12:00
-    - cron: "0 7 * * 1-5"   # 장 마감: 한국 시간 월~금 16:00
-    - cron: "0 13 * * 1-5"  # 밤 미장: 한국 시간 월~금 22:00
+    # GitHub starts scheduled runs 20~50 minutes late, worst on the hour, so these are set early and off the hour.
+    - cron: "37 22 * * 0-4"  # 장 전: 한국 시간 월~금 07:37 예약 (실제 게시 08시 전후)
+    - cron: "37 2 * * 1-5"   # 점심 장중: 한국 시간 월~금 11:37 예약 (12시 전후)
+    - cron: "47 6 * * 1-5"   # 장 마감: 한국 시간 월~금 15:47 예약 (장 끝난 15:30 이후, 16시 전후)
+    - cron: "37 12 * * 1-5"  # 밤 미장: 한국 시간 월~금 21:37 예약 (22시 전후)
   workflow_dispatch:
     inputs:
       slot:
@@ -53,10 +54,12 @@ jobs:
           slot="$SLOT_INPUT"
           if [ -z "$slot" ]; then
             case "$SCHEDULE" in
-              "0 23 * * 0-4") slot=morning ;;
-              "0 3 * * 1-5") slot=lunch ;;
-              "0 13 * * 1-5") slot=evening ;;
-              *) slot=close ;;
+              # The older on-the-hour strings stay so a run queued before the schedule change still maps right.
+              "37 22 * * 0-4"|"0 23 * * 0-4") slot=morning ;;
+              "37 2 * * 1-5"|"0 3 * * 1-5") slot=lunch ;;
+              "47 6 * * 1-5"|"0 7 * * 1-5") slot=close ;;
+              "37 12 * * 1-5"|"0 13 * * 1-5") slot=evening ;;
+              *) echo "알 수 없는 예약 시간: $SCHEDULE"; exit 1 ;;
             esac
           fi
           extra=""
