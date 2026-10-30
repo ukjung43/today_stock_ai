@@ -51,6 +51,13 @@ def cmd_draft(args, cfg) -> int:
         _github_summary(f"⏸️ {today} 국장 휴장일이라 건너뜀")
         return 0
 
+    # A manual run and a late scheduled run for the same slot must not both post.
+    if not args.force and (Path(args.out) / f"{now:%Y-%m-%d}-{args.slot}" / "post.json").exists():
+        print(f"{now:%Y-%m-%d} {args.slot} 글은 이미 만들었어요. 건너뛰어요.")
+        _github_output(skip="true")
+        _github_summary(f"⏸️ {today} {slot['label']} 글은 이미 있어서 건너뜀")
+        return 0
+
     quotes = fetch_quotes(slot["symbols"])
     if args.slot in ("lunch", "close") and not args.force and quotes[0].date != now.date().isoformat():
         print(f"{quotes[0].name} 오늘 시세가 아직 없어요 (마지막 거래일 {quotes[0].date}). 건너뛰어요.")
