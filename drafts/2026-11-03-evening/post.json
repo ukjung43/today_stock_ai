@@ -1,0 +1,186 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-03T22:43:58.085479+09:00",
+  "post": "나스닥100 선물 +0.93%… 국장 3.6% 급락 뒤라 미장 눈치 보는 밤 😿\n\n📌 오늘 밤 볼 것\n코스피 3.6%·코스닥 4% 급락, 삼성전자·SK하이닉스도 4~5%대 하락. 미국 반도체 약세 여파\n미 중간선거 앞두고 관망세. 환율 1,341.38원(-0.30%)\n미국의 이란 케심섬 공격 보도에도 브렌트유는 $101.46(-3.16%)\n\n👀 미장 뉴스 탄 종목\n• 애플 — 약한 마진 전망에 하락\n• 팰런티어 — 호실적에도 실적 후 6% 하락\n• 마벨 — 루멘텀 인수 발표 후 급락\n\n오늘 밤 한 줄 → 국장에서는 반도체 쪽이 미국 기술주 흐름과 연결돼오\n🐱 깨알 상식: 차익실현 — 오른 주식을 팔아 이익을 확정하는 것\n더 자세한 얘기는 첫 댓글 🐾\n#나스닥",
+  "reply": "🐱 한 번 더 풀어보면\n팰런티어는 실적이 좋았는데도 6% 빠졌어오.\n이미 많이 오른 주식이라 '이쯤에서 챙기자'는 차익실현 매물이 나온 거예요.\n애플은 아이폰이 잘 팔려도 마진(남는 돈) 전망이 약하다는 게 문제였고요.\n이런 빅테크 실적 반응이 나스닥 분위기를 좌우하고, 국장 반도체와도 연결돼요.",
+  "card_comment": "국장 급락 뒤 미장 눈치",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "美 기술주 하락 여파에 코스피 3.6%·코스닥 4% 급락, 삼전·닉스 4~5%대 급락",
+        "why": "美반도체 약세와 중간선거 경계감이 국장 대형주를 끌어내려, 오늘 밤 미장 기술주 흐름이 관전 포인트",
+        "headline_ids": [
+          91,
+          100,
+          7
+        ],
+        "related": [
+          "나스닥100 선물",
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "미 중간선거 앞두고 관망세, 원/달러 환율 2.8원 내린 1,341원",
+        "why": "민주당 의회 장악 시 증시가 흔들릴 수 있다는 분석이 나와 선거 결과가 변수",
+        "headline_ids": [
+          3,
+          24,
+          94
+        ],
+        "related": [
+          "원/달러 환율",
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "미국의 이란 케심섬 공격에 유가 상승 보도와 러시아의 우크라 평화회담 확인",
+        "why": "중동·우크라 지정학 이슈가 유가를 흔드는 중이며, 헤드라인끼리 유가 방향 표현이 엇갈림(유가 상승 보도 vs 시장 데이터상 브렌트유 하락)",
+        "headline_ids": [
+          21,
+          5,
+          83
+        ],
+        "related": [
+          "브렌트유"
+        ]
+      },
+      {
+        "topic": "[종목] 애플·팰런티어 — 애플은 약한 마진 전망에 하락, 팰런티어는 호실적에도 실적 후 6% 급락",
+        "why": "빅테크 실적 반응이 나스닥 투자심리를 좌우",
+        "headline_ids": [
+          10,
+          14,
+          34,
+          35
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 메타·오라클·마벨 — AI 자금 조달과 루멘텀 인수 발표 후 주가 하락",
+        "why": "AI 투자 부담 우려가 반도체·기술주 전반에 영향",
+        "headline_ids": [
+          36,
+          37
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      }
+    ],
+    "term": "차익실현",
+    "term_explain": "오른 주식을 팔아 이익을 확정하는 것. 실적이 좋아도 이미 많이 올랐으면 매물이 쏟아져 주가가 빠질 수 있어요.",
+    "mood": "패닉"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7597.75,
+      "prev_close": 7574.5,
+      "change_pct": 0.3069509538583315,
+      "date": "2026-11-03",
+      "price_text": "7,597.75",
+      "change_text": "+0.31%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28389.5,
+      "prev_close": 28127.5,
+      "change_pct": 0.9314727579770699,
+      "date": "2026-11-03",
+      "price_text": "28,389.50",
+      "change_text": "+0.93%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1341.38,
+      "prev_close": 1345.42,
+      "change_pct": -0.30027798011029727,
+      "date": "2026-11-03",
+      "price_text": "1,341.38원",
+      "change_text": "-0.30%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 101.46,
+      "prev_close": 104.77,
+      "change_pct": -3.159301326715669,
+      "date": "2026-11-03",
+      "price_text": "$101.46",
+      "change_text": "-3.16%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "코스피, 美기술주 하락 영향에 3.6% 급락…코스닥도 4%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261103137351008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-03T07:10:59+00:00"
+    },
+    {
+      "title": "삼전·닉스, 美반도체 약세·중간선거 경계감에 4∼5%대 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261103043751008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-03T06:51:53+00:00"
+    },
+    {
+      "title": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
+      "link": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
+      "source": "CNBC",
+      "published": "2026-11-03T13:01:23+00:00"
+    },
+    {
+      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+      "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "source": "CNBC",
+      "published": "2026-11-03T13:28:36+00:00"
+    },
+    {
+      "title": "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+      "link": "https://www.yna.co.kr/view/AKR20261103144300002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-03T07:05:15+00:00"
+    },
+    {
+      "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
+      "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "source": "CNBC",
+      "published": "2026-11-03T09:58:37+00:00"
+    },
+    {
+      "title": "Apple shares slide after weak margin outlook; Palantir slumps 6% after earnings",
+      "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-03T12:50:27+00:00"
+    },
+    {
+      "title": "\"비싸게 팔면 뭐하나\"…아이폰 잘 나가도 애플 속 타는 이유",
+      "link": "https://www.hankyung.com/article/2026110336511",
+      "source": "한국경제 증권",
+      "published": "2026-11-03T08:55:49+00:00"
+    },
+    {
+      "title": "호실적 낸 팰런티어 차익실현 매물에 뚝",
+      "link": "https://www.hankyung.com/article/2026110336531",
+      "source": "한국경제 증권",
+      "published": "2026-11-03T08:54:32+00:00"
+    },
+    {
+      "title": "\"너무 비싸게 샀나\"…마벨, 루멘텀 인수발표 후 급락",
+      "link": "https://www.hankyung.com/article/2026110336551",
+      "source": "한국경제 증권",
+      "published": "2026-11-03T08:54:12+00:00"
+    }
+  ]
+}
