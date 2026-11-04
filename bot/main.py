@@ -1,7 +1,7 @@
 """today_stock.ai command line.
 
-  python -m bot.main draft --slot morning|lunch|close|evening [--no-ai] [--force]
-  python -m bot.main publish --draft drafts/2026-10-28-close --image-base https://raw.githubusercontent.com/OWNER/REPO/SHA
+  python -m bot.main draft --slot morning|lunch|afterwork|evening [--no-ai] [--force]
+  python -m bot.main publish --draft drafts/2026-11-05-afterwork --image-base https://raw.githubusercontent.com/OWNER/REPO/SHA
   python -m bot.main whoami
   python -m bot.main refresh-token --out token.txt
 """
@@ -40,6 +40,16 @@ def _github_summary(markdown: str) -> None:
             f.write(markdown + "\n")
 
 
+def _recent_first_lines(n: int = 12) -> list[str]:
+    """First lines of the latest published drafts, so the writer stops reusing the same hook."""
+    lines = []
+    for path in sorted((ROOT / "drafts").glob("*/post.json"))[-n:]:
+        post = json.loads(path.read_text(encoding="utf-8")).get("post", "")
+        if post:
+            lines.append(post.splitlines()[0])
+    return lines
+
+
 def cmd_draft(args, cfg) -> int:
     slot = cfg["slots"][args.slot]
     now = datetime.now(KST)
@@ -59,7 +69,7 @@ def cmd_draft(args, cfg) -> int:
         return 0
 
     quotes = fetch_quotes(slot["symbols"])
-    if args.slot in ("lunch", "close") and not args.force and quotes[0].date != now.date().isoformat():
+    if args.slot in ("lunch", "afterwork") and not args.force and quotes[0].date != now.date().isoformat():
         print(f"{quotes[0].name} 오늘 시세가 아직 없어요 (마지막 거래일 {quotes[0].date}). 건너뛰어요.")
         _github_output(skip="true")
         _github_summary(f"⏸️ {quotes[0].name} 오늘 시세 없음 (마지막 {quotes[0].date})")
@@ -68,7 +78,7 @@ def cmd_draft(args, cfg) -> int:
     feeds = cfg["news"]["feeds"] + slot.get("extra_feeds", [])
     headlines = fetch_headlines(feeds, slot["news_hours"], cfg["news"]["max_items"])
     write = write_with_template if args.no_ai else write_with_claude
-    written = write(cfg, slot, today, quotes, headlines)
+    written = write(cfg, slot, today, quotes, headlines, _recent_first_lines())
 
     draft_dir = Path(args.out) / f"{now:%Y-%m-%d}-{args.slot}"
     render_card(draft_dir / "card.png", slot, today, quotes, written.card_comment, cfg["site"]["handle"])
@@ -166,7 +176,7 @@ def main() -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     p = sub.add_parser("draft", help="글과 이미지 초안 만들기")
-    p.add_argument("--slot", choices=["morning", "lunch", "close", "evening"], required=True)
+    p.add_argument("--slot", choices=["morning", "lunch", "afterwork", "evening"], required=True)
     p.add_argument("--no-ai", action="store_true", help="Claude 없이 템플릿으로 (미리보기용)")
     p.add_argument("--force", action="store_true", help="휴장일 검사 건너뛰기")
     p.add_argument("--out", default="drafts")

@@ -10,7 +10,7 @@ model: inherit
 작업 순서:
 1. 요청과 함께 받은 피드백이나 예시 글을 읽고, 무엇을 바꿀지 한 줄로 정리한다.
 2. 해당 역할의 지침만 최소한으로 고친다. 작가 말투를 바꾸면 편집장의 말투 기준(4번)도 맞춰 고친다.
-3. `ANTHROPIC_API_KEY`가 설정돼 있으면 `.venv\Scripts\python -m bot.main draft --slot close --force --out out`으로 미리보기를 만들어 결과 글을 보여준다. 없으면 바꾼 지침만 보여준다.
+3. `ANTHROPIC_API_KEY`가 설정돼 있으면 `.venv\Scripts\python -m bot.main draft --slot afterwork --force --out out`으로 미리보기를 만들어 결과 글을 보여준다. 없으면 바꾼 지침만 보여준다.
 
 지켜야 할 것:
 - "숫자는 데이터 그대로", "종목 추천 금지", "헤드라인에 없는 사실 금지" 규칙은 지우거나 약하게 만들지 않는다.

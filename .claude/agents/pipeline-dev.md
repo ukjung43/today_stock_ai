@@ -11,7 +11,7 @@ model: inherit
 1. 관련 파일을 읽고 바꿀 범위를 정한다. 기존 코드 스타일(짧은 함수, 한국어 사용자 메시지, 영어 주석)을 따른다.
 2. 고친 뒤 반드시 확인한다:
    - `.venv\Scripts\python -m compileall -q bot`
-   - `.venv\Scripts\python -m bot.main draft --slot close --no-ai --force --out out` 와 `--slot morning` 둘 다
+   - `.venv\Scripts\python -m bot.main draft --slot afterwork --no-ai --force --out out` 와 `--slot morning` 둘 다
    - 카드를 바꿨으면 `out/<날짜>-<slot>/card.png`를 열어 본다
 3. 무엇을 바꿨고 어떻게 확인했는지 쉬운 한국어로 보고한다. 확인 못 한 부분(예: 실제 Threads 게시)은 못 했다고 말한다.
 

@@ -10,7 +10,7 @@ Threads 계정 @today_stock.ai 에 국장 빅이슈를 자동으로 올리는 �
 - `bot/checks.py` 규칙 검사: 데이터에 없는 숫자, 부호, 금지어, 글자 수
 - `bot/card.py` 1080x1350 카드 (상승 빨강, 하락 파랑)
 - `bot/threads.py` Threads 공식 API
-- `.github/workflows/post.yml` 08:00/12:00/16:00/22:00 KST 무렵 초안 (GitHub 지연 때문에 예약은 07:37/11:37/15:47/21:37) → `threads` 환경 → 게시 (현재 승인 없이 자동. Required reviewers를 다시 넣으면 승인제)
+- `.github/workflows/post.yml` 08:00/12:00/18:30/22:00 KST 무렵 초안 (장 전/점심/퇴근길/밤 미장. GitHub 지연 때문에 예약은 07:37/11:37/17:47/21:37) → `threads` 환경 → 게시 (현재 승인 없이 자동. Required reviewers를 다시 넣으면 승인제)
 - `config.toml` 시간대별 종목, 피드, 금지어, 역할별 effort
 
 ## 지켜야 할 것
@@ -22,7 +22,7 @@ Threads 계정 @today_stock.ai 에 국장 빅이슈를 자동으로 올리는 �
 
 ## 명령
 ```bash
-.venv\Scripts\python -m bot.main draft --slot close --no-ai --force --out out   # Claude 없이 미리보기
+.venv\Scripts\python -m bot.main draft --slot afterwork --no-ai --force --out out   # Claude 없이 미리보기
 .venv\Scripts\python -m bot.main draft --slot morning --force --out out         # 실제 AI 팀 (ANTHROPIC_API_KEY 필요)
 .venv\Scripts\python -m bot.main whoami                                         # Threads 토큰 확인
 ```

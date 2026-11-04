@@ -5,7 +5,7 @@
 # 첫 댓글은 보통 추가 설명만 달고, 아래 요일의 아래 글에만 끝에 이 링크를 붙여요.
 url = "https://todaygukjang.kr/"
 link_weekdays = ["화", "금"]
-link_slots = ["close"]
+link_slots = ["afterwork"]
 handle = "today_stock.ai"
 
 [claude]
@@ -55,10 +55,11 @@ symbols = [
   { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
 ]
 
-[slots.close]
-label = "장 마감"
-title = "오늘 국장 3줄 요약"
-news_hours = 9
+# 장 마감 글 대신, 일하느라 장을 못 본 직장인이 퇴근길에 보는 글
+[slots.afterwork]
+label = "퇴근길"
+title = "퇴근길 국장 정리"
+news_hours = 10
 symbols = [
   { symbol = "^KS11", name = "코스피", kind = "index" },
   { symbol = "^KQ11", name = "코스닥", kind = "index" },

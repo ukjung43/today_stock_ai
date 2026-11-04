@@ -81,21 +81,22 @@ def _always_allowed(cfg: dict, today: str) -> list[str]:
     return [today, *cfg["safety"].get("allowed_numbers", [])]
 
 
-def _context(slot: dict, today: str, quotes: list[Quote], headlines: list[Headline]) -> str:
+def _context(slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]) -> str:
     data = [q.to_dict() for q in quotes]
     lines = [f"{i}. [{h.source}] {h.title}" for i, h in enumerate(headlines, 1)]
     return (
         f"오늘은 {today}이고, 쓸 글은 '{slot['title']}' ({slot['label']}) 이에요.\n\n"
         f"<market_data>\n{json.dumps(data, ensure_ascii=False, indent=1)}\n</market_data>\n\n"
-        "<headlines>\n" + "\n".join(lines) + "\n</headlines>"
+        "<headlines>\n" + "\n".join(lines) + "\n</headlines>\n\n"
+        "<recent_first_lines>\n" + "\n".join(recent) + "\n</recent_first_lines>"
     )
 
 
 class Team:
-    def __init__(self, cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline]):
+    def __init__(self, cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]):
         self.cfg, self.today = cfg, today
         self.quotes, self.headlines = quotes, headlines
-        self.context = _context(slot, today, quotes, headlines)
+        self.context = _context(slot, today, quotes, headlines, recent)
         self.client = anthropic.Anthropic()
 
     def _ask(self, role: str, messages: list, schema: dict):
@@ -160,11 +161,11 @@ class Team:
         return written  # still has problems; the caller refuses to publish it
 
 
-def write_with_claude(cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline]) -> Written:
-    return Team(cfg, slot, today, quotes, headlines).run()
+def write_with_claude(cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]) -> Written:
+    return Team(cfg, slot, today, quotes, headlines, recent).run()
 
 
-def write_with_template(cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline]) -> Written:
+def write_with_template(cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]) -> Written:
     """No-AI fallback used for local previews (`--no-ai`)."""
     hero = quotes[0]
     bullets = [f"• {q.name} — {q.fmt_price()} ({q.fmt_pct()})" for q in quotes[:4]]
