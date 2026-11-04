@@ -1,0 +1,220 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-04T22:45:08.551517+09:00",
+  "post": "S&P500 선물 +0.96%… 선거 끝나자 미장 눈치게임 시작이에오 👀\n\n📌 오늘 밤 볼 것\n민주당이 상·하원 둘 다 가져감. 오늘 밤이 결과 소화하는 첫 장\n나스닥100 선물 +0.38%, 텍사스에 'AI 인프라 반대' 주지사 당선\n미 국채금리 하락, 유로존 물가는 4%… 브렌트유 $101.50 (-2.03%)\n\n👀 미장 뉴스 탄 종목\n• 우버 — 매출은 예상 넘었지만 이동·배달 부문은 미달\n• 맥도날드 — 실적은 예상 상회, 미국 매장 방문객은 줄어\n• 노보 — 위고비 알약 판매 호조로 전망 올려\n\n오늘 밤 한 줄 → 국장에서는 반도체 쪽이 AI 데이터센터 뉴스와 연결돼오\n\n🐱 깨알 상식: VI — 주가가 너무 빨리 움직이면 약 2분 쉬어가게 하는 장치\n\n더 자세한 얘기는 첫 댓글 🐾\n#반도체",
+  "reply": "🐱 한 번 더 풀어보면\n텍사스에서 'AI 인프라 반대' 쪽 주지사가 뽑혔어요.\n그래서 AI 데이터센터 짓는 속도가 느려질 수 있다는 걱정이 나왔어요.\n데이터센터엔 메모리 반도체가 잔뜩 들어가요.\n그래서 오늘 삼성전자·SK하이닉스도 장중 위아래로 크게 흔들렸던 거래오.",
+  "card_comment": "선거 끝, 눈치게임 시작",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "미 중간선거 민주당 상·하원 장악…코스피·닛케이·나스닥선물 출렁",
+        "why": "선거 결과에 아시아 증시가 급등락하며 변동성이 커졌고, 오늘 밤 미장도 이 결과를 소화하는 첫 장이라 관전 포인트 1순위",
+        "headline_ids": [
+          1,
+          9,
+          13,
+          39,
+          58,
+          67,
+          78,
+          82,
+          83,
+          87,
+          94
+        ],
+        "related": [
+          "S&P500 선물",
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "텍사스 'AI 인프라 반대' 민주당 주지사 당선…AI 데이터센터주·반도체 수요 우려",
+        "why": "AI 데이터센터 둔화 위험이 부각되며 관련주와 삼전닉스가 장중 급등락, 오늘 밤 미 기술주 흐름이 관건",
+        "headline_ids": [
+          8,
+          10,
+          46,
+          69,
+          95
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "민주당 승리에 미 국채금리·국고채 금리 하락…유로존 물가 4%로 금리 인상 전망",
+        "why": "금리 방향이 주식 밸류에이션에 직결되고, 유로존 물가는 에너지 20% 급등이 이끈 만큼 유가 흐름도 함께 볼 포인트",
+        "headline_ids": [
+          14,
+          61,
+          68,
+          16,
+          17,
+          12
+        ],
+        "related": [
+          "S&P500 선물",
+          "브렌트유",
+          "원/달러 환율"
+        ]
+      },
+      {
+        "topic": "[종목] 미 실적·기업 이벤트 — 우버 매출 상회, 맥도날드 실적 상회, 노보 위고비 알약 호조, CVS 분할",
+        "why": "오늘 밤 미장에서 개별 실적·구조개편 이슈가 종목별 차별화를 만들 수 있음",
+        "headline_ids": [
+          6,
+          7,
+          20,
+          3,
+          15
+        ],
+        "related": [
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 스페이스X — 퀄컴과 미국 모바일 통신 기술 계약, 텍사스 결과에 하락 언급",
+        "why": "테슬라 합병 시 양도세 이슈까지 겹쳐 서학개미 관심이 큰 이름",
+        "headline_ids": [
+          4,
+          8,
+          88
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      }
+    ],
+    "term": "VI(변동성 완화장치)",
+    "term_explain": "주가가 짧은 시간에 너무 크게 움직이면 잠깐(약 2분) 단일가 매매로 바꿔 열기를 식히는 장치예요.",
+    "mood": "눈치게임"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7670.0,
+      "prev_close": 7596.75,
+      "change_pct": 0.96422812386876,
+      "date": "2026-11-04",
+      "price_text": "7,670.00",
+      "change_text": "+0.96%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28412.5,
+      "prev_close": 28305.75,
+      "change_pct": 0.37713185483514433,
+      "date": "2026-11-04",
+      "price_text": "28,412.50",
+      "change_text": "+0.38%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1337.79,
+      "prev_close": 1342.82,
+      "change_pct": -0.37458482894207057,
+      "date": "2026-11-04",
+      "price_text": "1,337.79원",
+      "change_text": "-0.37%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 101.5,
+      "prev_close": 103.6,
+      "change_pct": -2.0270270270270174,
+      "date": "2026-11-04",
+      "price_text": "$101.50",
+      "change_text": "-2.03%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
+      "link": "https://www.cnbc.com/2026/11/04/us-midterm-elections-iran-war-speaker.html",
+      "source": "CNBC",
+      "published": "2026-11-04T13:43:31+00:00"
+    },
+    {
+      "title": "U.S. midterm elections in pictures: Democrats' sweeping victories deliver rebuke to Trump",
+      "link": "https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html",
+      "source": "CNBC",
+      "published": "2026-11-04T13:02:32+00:00"
+    },
+    {
+      "title": "5 midterm election takeaways: Tech billionaires suffer as Democrats drub Republicans",
+      "link": "https://www.cnbc.com/2026/11/04/midterm-election-blue-wave-trump-billionaires.html",
+      "source": "CNBC",
+      "published": "2026-11-04T12:51:00+00:00"
+    },
+    {
+      "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+      "link": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "source": "CNBC",
+      "published": "2026-11-04T13:03:31+00:00"
+    },
+    {
+      "title": "美 텍사스주, 'AI 인프라 반대' 민주당 히노호사 주지사 선출",
+      "link": "https://www.hankyung.com/article/202611046000i",
+      "source": "한국경제 증권",
+      "published": "2026-11-04T08:35:06+00:00"
+    },
+    {
+      "title": "삼전닉스 덮친 '블루 쓰나미'…반도체 수요 꺾일까 [분석+]",
+      "link": "https://www.hankyung.com/article/2026110461576",
+      "source": "한국경제 증권",
+      "published": "2026-11-04T13:00:04+00:00"
+    },
+    {
+      "title": "장중 급등락하며 '출렁'…삼전닉스, 약보합 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261104038851008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-04T06:54:45+00:00"
+    },
+    {
+      "title": "Treasury yields fall after Democrats win House and Senate majorities",
+      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "source": "CNBC",
+      "published": "2026-11-04T12:25:25+00:00"
+    },
+    {
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+      "source": "CNBC",
+      "published": "2026-11-04T10:47:30+00:00"
+    },
+    {
+      "title": "유로존 10월 소비자물가 4％↑…에너지 20％ 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261104176800082",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-04T10:55:05+00:00"
+    },
+    {
+      "title": "Uber beats on revenue even as mobility and delivery units miss estimates",
+      "link": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-04T13:27:06+00:00"
+    },
+    {
+      "title": "McDonald's earnings beat, but traffic to its U.S. restaurants falls",
+      "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "source": "CNBC",
+      "published": "2026-11-04T13:24:47+00:00"
+    },
+    {
+      "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+      "link": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
+      "source": "CNBC",
+      "published": "2026-11-04T10:40:51+00:00"
+    }
+  ]
+}
