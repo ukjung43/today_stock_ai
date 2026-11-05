@@ -92,6 +92,17 @@ def _context(slot: dict, today: str, quotes: list[Quote], headlines: list[Headli
     )
 
 
+def check_written(cfg: dict, today: str, quotes: list[Quote], headlines: list[Headline], written: Written) -> list[str]:
+    """Rule checks shared by the API team and posts Claude Code writes by hand."""
+    allowed = allowed_numbers(quotes, headlines, _always_allowed(cfg, today))
+    banned, limits = cfg["safety"]["banned"], cfg["post"]
+    return (
+        find_problems(written.post, allowed, banned, limits["max_chars"])
+        + find_problems(written.reply, allowed, banned, limits["reply_max_chars"])
+        + find_problems(written.card_comment, allowed, banned, limits["card_comment_max_chars"])
+    )
+
+
 class Team:
     def __init__(self, cfg: dict, slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]):
         self.cfg, self.today = cfg, today
@@ -134,8 +145,6 @@ class Team:
         return [f"[편집장] {issue}" for issue in verdict["issues"]] or ["[편집장] 승인하지 않았어요"]
 
     def run(self) -> Written:
-        allowed = allowed_numbers(self.quotes, self.headlines, _always_allowed(self.cfg, self.today))
-        banned, limits = self.cfg["safety"]["banned"], self.cfg["post"]
         brief = self.research()
         print(f"[리서처] {[i['topic'] for i in brief['issues']]}")
 
@@ -146,9 +155,7 @@ class Team:
         for attempt in range(1, self.cfg["claude"]["max_attempts"] + 1):
             data, resp = self._ask("writer", messages, WRITE_SCHEMA)
             written = Written(**data, brief=brief, attempts=attempt)
-            written.problems = find_problems(written.post, allowed, banned, limits["max_chars"])
-            written.problems += find_problems(written.reply, allowed, banned, limits["reply_max_chars"])
-            written.problems += find_problems(written.card_comment, allowed, banned, limits["card_comment_max_chars"])
+            written.problems = check_written(self.cfg, self.today, self.quotes, self.headlines, written)
             if not written.problems:
                 written.problems = self.review(written, brief)
             if not written.problems:

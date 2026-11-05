@@ -1,0 +1,175 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-05T22:51:20.275189+09:00",
+  "post": "나스닥100 선물 -0.75%… 블루웨이브에 데이터센터가 표를 잃었읍니다 🌊\n\n📌 오늘 밤 볼 것\n미국 중간선거 민주당 압승, 데이터센터 반대론자들이 최대 승자\n나스닥100 선물 -0.75%, 국장은 오늘 코스피·코스닥 5%대 급락\n영국 중앙은행 3년만에 금리 인상, \"물가 5% 근처까지\" 경고\n\n👀 미장 뉴스 탄 종목\n• 닌텐도 — 가격 인상·메모리 부족에 스위치2 판매 41% 급감\n• 웬디스 — 트라이언의 인수 제안 거절\n\n오늘 밤 한 줄 → 국장 반도체는 미국 데이터센터 규제 얘기와 연결돼오\n\n🐱 깨알 상식: 블루웨이브 — 미국 선거에서 파란색이 상징인 민주당이 휩쓰는 것\n\n더 자세한 얘기는 첫 댓글 🐾\n#나스닥",
+  "reply": "🐱 한 번 더 풀어보면\n이번 미국 선거에선 AI 데이터센터를 반대한 쪽이 크게 이겼어오.\n물 같은 자원을 너무 많이 쓴다는 걱정 때문이래요.\n이 데이터센터 규제 우려가 반도체로 번져서\n오늘 국장에서 삼성전자·SK하이닉스가 7∼9%대 급락 마감했어요.",
+  "card_comment": "파도가 데이터센터를 덮쳤다",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "미국 중간선거 민주당 압승, 유권자들이 AI 데이터센터에 반대",
+        "why": "AI 투자 기대에 걸린 기술주와 반도체에 부담",
+        "headline_ids": [
+          3,
+          8,
+          80
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "'블루웨이브 쇼크'에 코스피·코스닥 5%대 급락, 삼전닉스 7∼9%대 급락 마감",
+        "why": "미국 데이터센터 규제 우려가 국장 반도체로 번짐",
+        "headline_ids": [
+          75,
+          82,
+          100
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "영국 중앙은행 3년만에 금리 인상, 물가 5% 근처 경고",
+        "why": "금리 인상 흐름이 다시 나오는지 볼 일정",
+        "headline_ids": [
+          12,
+          13
+        ],
+        "related": [
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 닌텐도 — 스위치2 판매 41% 급감, 가격 인상·메모리 부족",
+        "why": "메모리 부족이 게임기 판매에 영향",
+        "headline_ids": [
+          64
+        ],
+        "related": []
+      },
+      {
+        "topic": "[종목] 웬디스 — 트라이언 인수 제안 거절",
+        "why": "미국 인수합병 뉴스",
+        "headline_ids": [
+          5
+        ],
+        "related": []
+      }
+    ],
+    "term": "블루웨이브",
+    "term_explain": "미국 선거에서 파란색이 상징인 민주당이 휩쓰는 것",
+    "mood": "패닉"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7731.5,
+      "prev_close": 7720.5,
+      "change_pct": 0.1424778187941289,
+      "date": "2026-11-05",
+      "price_text": "7,731.50",
+      "change_text": "+0.14%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28353.0,
+      "prev_close": 28566.75,
+      "change_pct": -0.7482475255323084,
+      "date": "2026-11-05",
+      "price_text": "28,353.00",
+      "change_text": "-0.75%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1343.92,
+      "prev_close": 1340.63,
+      "change_pct": 0.24540701013702204,
+      "date": "2026-11-05",
+      "price_text": "1,343.92원",
+      "change_text": "+0.25%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 96.74,
+      "prev_close": 94.62,
+      "change_pct": 2.2405411118156637,
+      "date": "2026-11-05",
+      "price_text": "$96.74",
+      "change_text": "+2.24%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+      "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+      "source": "CNBC",
+      "published": "2026-11-05T13:44:27+00:00"
+    },
+    {
+      "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+      "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
+      "source": "CNBC",
+      "published": "2026-11-05T13:00:01+00:00"
+    },
+    {
+      "title": "[美중간선거] 데이터센터 반대론자들이 최대 승자",
+      "link": "https://www.yna.co.kr/view/AKR20261105139300009",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-05T07:13:49+00:00"
+    },
+    {
+      "title": "'블루웨이브 쇼크' 코스피·코스닥, 5%대 급락…반도체주 '추락'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261105134351008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-05T07:19:09+00:00"
+    },
+    {
+      "title": "블루웨이브 쇼크 '검은 목요일'…데이터센터 규제 우려에 증시 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261105086751008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-05T07:12:21+00:00"
+    },
+    {
+      "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+      "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+      "source": "CNBC",
+      "published": "2026-11-05T12:37:57+00:00"
+    },
+    {
+      "title": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261105179052085",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-05T12:52:40+00:00"
+    },
+    {
+      "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
+      "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
+      "source": "CNBC",
+      "published": "2026-11-05T07:30:58+00:00"
+    },
+    {
+      "title": "Wendy's rejects $1.4 billion takeover proposal from Nelson Peltz’s Trian",
+      "link": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html",
+      "source": "CNBC",
+      "published": "2026-11-05T13:26:28+00:00"
+    },
+    {
+      "title": "삼전닉스, 美데이터센터 규제 우려에 7∼9%대 급락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261105040851008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-05T06:58:40+00:00"
+    }
+  ]
+}

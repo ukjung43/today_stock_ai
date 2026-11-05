@@ -1,12 +1,13 @@
 name: Threads 자동 게시
 
 on:
-  schedule:
-    # GitHub starts scheduled runs 20~50 minutes late, worst on the hour, so these are set early and off the hour.
-    - cron: "37 22 * * 0-4"  # 장 전: 한국 시간 월~금 07:37 예약 (실제 게시 08시 전후)
-    - cron: "37 2 * * 1-5"   # 점심 장중: 한국 시간 월~금 11:37 예약 (12시 전후)
-    - cron: "47 8 * * 1-5"   # 퇴근길: 한국 시간 월~금 17:47 예약 (18시 반 전후)
-    - cron: "37 12 * * 1-5"  # 밤 미장: 한국 시간 월~금 21:37 예약 (22시 전후)
+  # 2026-11-05부터 글은 사장님 PC의 Claude Code 예약 작업이 직접 써서 올려요 (Claude API 크레딧 안 씀).
+  # 이 워크플로는 손으로 실행할 때만 돌아요. 다시 자동으로 돌리려면 아래 schedule 을 되살리세요.
+  # schedule:
+  #   - cron: "37 22 * * 0-4"  # 장 전 07:37
+  #   - cron: "37 2 * * 1-5"   # 점심 11:37
+  #   - cron: "47 8 * * 1-5"   # 퇴근길 17:47
+  #   - cron: "37 12 * * 1-5"  # 밤 미장 21:37
   workflow_dispatch:
     inputs:
       slot:
