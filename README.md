@@ -8,6 +8,8 @@ Threads 계정 [@today_stock.ai](https://www.threads.com/@today_stock.ai)에 매
 - **밤 미장 (월~금 22:00):** 미국 선물, 환율, 유가, 미국 뉴스(CNBC 제목) → "오늘 밤 미장 관전 포인트"
 - 휴장일(주말, 공휴일, 대체공휴일, 12/31)에는 자동으로 쉬어요.
 
+> **지금은** 사장님 PC의 Claude Code 예약 작업이 `POSTING.md` 순서대로 직접 글을 쓰고 올려요 (Claude API 크레딧 안 씀). PC와 Claude 앱이 켜져 있어야 해요. 아래는 예전 GitHub Actions 방식 설명이에요.
+
 ## 동작 순서
 
 1. 시세를 가져와요 (Yahoo Finance) — 숫자는 여기서만 나와요.
