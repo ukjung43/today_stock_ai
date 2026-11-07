@@ -10,7 +10,7 @@ Threads 계정 @today_stock.ai 에 국장 빅이슈를 자동으로 올리는 �
 - `bot/checks.py` 규칙 검사: 데이터에 없는 숫자, 부호, 금지어, 글자 수
 - `bot/card.py` 1080x1350 카드 (상승 빨강, 하락 파랑)
 - `bot/threads.py` Threads 공식 API
-- **지금 게시 방식 (2026-11-05~):** 사장님 PC의 Claude Code 예약 작업(평일 08:00/12:00/18:30/22:00 장 전/점심/퇴근길/밤 미장, 일요일 17:00 다음 주 미리보기)이 `POSTING.md` 순서대로 `prepare` → 직접 리서처·작가·편집장 → `finish` → 커밋·푸시 → `publish`. Claude API 크레딧을 안 쓴다.
+- **지금 게시 방식 (2026-11-05~):** 사장님 PC의 Claude Code 예약 작업(평일 08:00/12:00/18:30/22:00 장 전/점심/퇴근길/밤 미장, 일요일 22:00 내일 국장 전 체크)이 `POSTING.md` 순서대로 `prepare` → 직접 리서처·작가·편집장 → `finish` → 커밋·푸시 → `publish`. Claude API 크레딧을 안 쓴다.
 - `.github/workflows/post.yml` 예전 방식(API 팀). 예약은 꺼져 있고 손으로 실행할 때만 돈다. 둘을 같이 켜면 같은 글이 두 번 올라갈 수 있다.
 - `config.toml` 시간대별 종목, 피드, 금지어, 역할별 effort
 
