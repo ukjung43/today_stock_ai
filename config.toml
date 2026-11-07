@@ -68,6 +68,25 @@ symbols = [
   { symbol = "KRW=X", name = "원/달러 환율", kind = "fx" },
 ]
 
+# 일요일 오후 다음 주 미리보기. 금요일 국장 마감 뒤부터 쌓인 뉴스를 보려고 이틀 넘게, 더 많이 읽어요.
+[slots.weekend]
+label = "주말"
+title = "다음 주 국장 미리보기"
+news_hours = 50
+max_items = 300
+extra_feeds = [
+  { name = "CNBC", url = "https://www.cnbc.com/id/100003114/device/rss/rss.html" },
+  { name = "CNBC 경제", url = "https://www.cnbc.com/id/20910258/device/rss/rss.html" },
+]
+symbols = [
+  { symbol = "^KS11", name = "코스피", kind = "index" },
+  { symbol = "^KQ11", name = "코스닥", kind = "index" },
+  { symbol = "005930.KS", name = "삼성전자", kind = "krw" },
+  { symbol = "000660.KS", name = "SK하이닉스", kind = "krw" },
+  { symbol = "^GSPC", name = "S&P500", kind = "index" },
+  { symbol = "^IXIC", name = "나스닥", kind = "index" },
+]
+
 [slots.evening]
 label = "밤 미장"
 title = "오늘 밤 미장 관전 포인트"

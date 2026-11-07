@@ -58,7 +58,8 @@ def _gather(args, cfg):
     now = datetime.now(KST)
     today = f"{now:%Y.%m.%d} ({WEEKDAYS[now.weekday()]})"
 
-    if not args.force and not is_krx_trading_day(now.date()):
+    # The weekend preview posts on Sundays, when the market is closed by design.
+    if not args.force and args.slot != "weekend" and not is_krx_trading_day(now.date()):
         print(f"{now.date()} 은 국장 휴장일이라 건너뛰어요.")
         _github_output(skip="true")
         _github_summary(f"⏸️ {today} 국장 휴장일이라 건너뜀")
@@ -79,7 +80,7 @@ def _gather(args, cfg):
         return None
 
     feeds = cfg["news"]["feeds"] + slot.get("extra_feeds", [])
-    headlines = fetch_headlines(feeds, slot["news_hours"], cfg["news"]["max_items"])
+    headlines = fetch_headlines(feeds, slot["news_hours"], slot.get("max_items", cfg["news"]["max_items"]))
     return slot, now, today, quotes, headlines
 
 
@@ -237,14 +238,14 @@ def main() -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     p = sub.add_parser("draft", help="글과 이미지 초안 만들기")
-    p.add_argument("--slot", choices=["morning", "lunch", "afterwork", "evening"], required=True)
+    p.add_argument("--slot", choices=["morning", "lunch", "afterwork", "evening", "weekend"], required=True)
     p.add_argument("--no-ai", action="store_true", help="Claude 없이 템플릿으로 (미리보기용)")
     p.add_argument("--force", action="store_true", help="휴장일 검사 건너뛰기")
     p.add_argument("--out", default="drafts")
     p.set_defaults(func=cmd_draft)
 
     p = sub.add_parser("prepare", help="Claude Code가 직접 쓸 수 있게 시세·헤드라인만 준비 (API 없이)")
-    p.add_argument("--slot", choices=["morning", "lunch", "afterwork", "evening"], required=True)
+    p.add_argument("--slot", choices=["morning", "lunch", "afterwork", "evening", "weekend"], required=True)
     p.add_argument("--force", action="store_true", help="휴장일·중복 검사 건너뛰기")
     p.add_argument("--out", default="drafts")
     p.set_defaults(func=cmd_prepare)

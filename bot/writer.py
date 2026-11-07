@@ -10,7 +10,9 @@ from dataclasses import dataclass, field
 import anthropic
 
 from .checks import allowed_numbers, find_problems
-from .config import ROOT
+from datetime import datetime
+
+from .config import KST, ROOT
 from .market import Quote
 from .news import Headline
 
@@ -81,13 +83,21 @@ def _always_allowed(cfg: dict, today: str) -> list[str]:
     return [today, *cfg["safety"].get("allowed_numbers", [])]
 
 
+def _kst(published: str) -> str:
+    """Publish time in Korean time, so the team can tell what came out after the market closed."""
+    try:
+        return f"{datetime.fromisoformat(published).astimezone(KST):%m/%d %H:%M}"
+    except ValueError:
+        return "시각 모름"
+
+
 def _context(slot: dict, today: str, quotes: list[Quote], headlines: list[Headline], recent: list[str]) -> str:
     data = [q.to_dict() for q in quotes]
-    lines = [f"{i}. [{h.source}] {h.title}" for i, h in enumerate(headlines, 1)]
+    lines = [f"{i}. [{_kst(h.published)}] [{h.source}] {h.title}" for i, h in enumerate(headlines, 1)]
     return (
         f"오늘은 {today}이고, 쓸 글은 '{slot['title']}' ({slot['label']}) 이에요.\n\n"
         f"<market_data>\n{json.dumps(data, ensure_ascii=False, indent=1)}\n</market_data>\n\n"
-        "<headlines>\n" + "\n".join(lines) + "\n</headlines>\n\n"
+        "<headlines> (번호. [기사 시각, 한국 시간] [언론사] 제목)\n" + "\n".join(lines) + "\n</headlines>\n\n"
         "<recent_first_lines>\n" + "\n".join(recent) + "\n</recent_first_lines>"
     )
 

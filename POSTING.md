@@ -1,6 +1,6 @@
 # Claude Code가 직접 글을 쓰고 올리는 순서
 
-2026-11-05부터 글은 Claude API 팀 대신 사장님 PC의 Claude Code 예약 작업이 써요. 예약 작업은 슬롯 이름 하나(morning / lunch / afterwork / evening)를 받아서 아래 순서를 그대로 따라요. 저장소 위치는 `C:\Users\jjww3\Documents\today_stock_ai` 예요.
+2026-11-05부터 글은 Claude API 팀 대신 사장님 PC의 Claude Code 예약 작업이 써요. 예약 작업은 슬롯 이름 하나(morning / lunch / afterwork / evening / weekend)를 받아서 아래 순서를 그대로 따라요. 저장소 위치는 `C:\Users\jjww3\Documents\today_stock_ai` 예요.
 
 | 슬롯 | 예약 (한국 시간, 월~금) | 늦으면 건너뛰는 시각 |
 |---|---|---|
@@ -8,6 +8,7 @@
 | lunch (점심 장중) | 12:00 | 13:30 |
 | afterwork (퇴근길) | 18:30 | 20:00 |
 | evening (밤 미장) | 22:00 | 23:30 |
+| weekend (주말, 다음 주 미리보기) | 일요일 17:00 | 18:30 |
 
 ## 지켜야 할 것
 - `.env`, 토큰, API 키를 읽어서 출력하거나 커밋하지 않는다. 명령은 `.env`를 알아서 읽는다.
