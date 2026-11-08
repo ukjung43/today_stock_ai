@@ -1,0 +1,326 @@
+{
+  "slot": "morning",
+  "created_at": "2026-11-09T08:06:02.404962+09:00",
+  "today": "2026.11.09 (월)",
+  "quotes": [
+    {
+      "symbol": "^GSPC",
+      "name": "S&P500",
+      "kind": "index",
+      "price": 7376.86,
+      "prev_close": 7353.72998046875,
+      "change_pct": 0.31453452319682995,
+      "date": "2026-11-06",
+      "price_text": "7,376.86",
+      "change_text": "+0.31%"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "나스닥",
+      "kind": "index",
+      "price": 24579.424,
+      "prev_close": 24315.0,
+      "change_pct": 1.0874933168825818,
+      "date": "2026-11-06",
+      "price_text": "24,579.42",
+      "change_text": "+1.09%"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "다우",
+      "kind": "index",
+      "price": 51285.73,
+      "prev_close": 51523.05859375,
+      "change_pct": -0.4606259803426882,
+      "date": "2026-11-06",
+      "price_text": "51,285.73",
+      "change_text": "-0.46%"
+    },
+    {
+      "symbol": "^SOX",
+      "name": "필라델피아 반도체",
+      "kind": "index",
+      "price": 9390.25,
+      "prev_close": 9011.1396484375,
+      "change_pct": 4.207129912011043,
+      "date": "2026-11-06",
+      "price_text": "9,390.25",
+      "change_text": "+4.21%"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "엔비디아",
+      "kind": "usd",
+      "price": 186.64,
+      "prev_close": 181.60000610351562,
+      "change_pct": 2.7753269422311933,
+      "date": "2026-11-06",
+      "price_text": "$186.64",
+      "change_text": "+2.78%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1363.21,
+      "prev_close": 1356.68,
+      "change_pct": 0.48132205088893265,
+      "date": "2026-11-08",
+      "price_text": "1,363.21원",
+      "change_text": "+0.48%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 98.32,
+      "prev_close": 98.32,
+      "change_pct": 0.0,
+      "date": "2026-11-06",
+      "price_text": "$98.32",
+      "change_text": "+0.00%"
+    }
+  ],
+  "headlines": [
+    {
+      "title": "증시 급락에 연금계좌도 '악'…\"어떻게 하나\" 전문가 답변은",
+      "link": "https://www.hankyung.com/article/202611083134i",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T23:00:17+00:00"
+    },
+    {
+      "title": "[AI픽] 식약처, 의약품 심사에 AI 도입…내달 민원인용 기능 공개",
+      "link": "https://www.yna.co.kr/view/AKR20261106175100017",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T23:00:03+00:00"
+    },
+    {
+      "title": "[인터뷰] 이윤희 삼성운용 채권본부장 \"빨라진 금리 하락…전략 재점검\"",
+      "link": "https://www.yna.co.kr/view/AKR20261107023100008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T23:00:03+00:00"
+    },
+    {
+      "title": "[스타워즈] 증시 폭락에 고군분투…생존자 포트폴리오 보니",
+      "link": "https://www.hankyung.com/article/2026110828686",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T23:00:02+00:00"
+    },
+    {
+      "title": "\"TSMC, 메모리 사업 진출 검토…엔비디아 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20261109013800009",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T22:59:27+00:00"
+    },
+    {
+      "title": "[마켓뷰] '5천피' 지켜낼수 있을까…최근 폭락따른 저가매수 기대",
+      "link": "https://www.yna.co.kr/view/AKR20261109013600008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T22:58:39+00:00"
+    },
+    {
+      "title": "김동선, 한화M&S 보통주 4% 추가 공개매수…270억원 규모",
+      "link": "https://www.yna.co.kr/view/AKR20261109014400030",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T22:55:38+00:00"
+    },
+    {
+      "title": "\"한국콜마, 생산능력 확대로 비용 부담 증가…목표가↓\"-KB",
+      "link": "https://www.hankyung.com/article/2026110936436",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T22:55:14+00:00"
+    },
+    {
+      "title": "\"씨에스윈드, 美 풍력 프로젝트 규제 완화 기대\"-하나",
+      "link": "https://www.hankyung.com/article/2026110936526",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T22:47:52+00:00"
+    },
+    {
+      "title": "미국 AI 투자 위축? IB들 \"선발 업체들엔 오히려 기회\" [오늘 아침, 당신이 알아야 할 7가지]",
+      "link": "https://www.hankyung.com/article/202611083452i",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T22:35:41+00:00"
+    },
+    {
+      "title": "\"삼성전자 팔면 후회할까\"…20년 통계 봤더니 '놀라운 결과' [분석+]",
+      "link": "https://www.hankyung.com/article/2026110936216",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T22:34:28+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20261109009600011",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T22:30:00+00:00"
+    },
+    {
+      "title": "한·동티모르, '무상원조 기본협정' 추진…ODA 협력 폭 넓힌다",
+      "link": "https://www.yna.co.kr/view/AKR20261108038900371",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T22:00:02+00:00"
+    },
+    {
+      "title": "앤트로픽, 데이터센터용 가스 발전기 4.6조원 직접 확보",
+      "link": "https://www.yna.co.kr/view/AKR20261109007600009",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T21:44:44+00:00"
+    },
+    {
+      "title": "현대차·기아 전기차 10월에 두배 팔렸다…EV5 판매 '껑충'",
+      "link": "https://www.yna.co.kr/view/AKR20261108025300003",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T21:15:00+00:00"
+    },
+    {
+      "title": "맞춤형 HBM이 바꾼 SK·삼성 인사…기술통이 미주사업 이끈다",
+      "link": "https://www.yna.co.kr/view/AKR20261108042900003",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:09:00+00:00"
+    },
+    {
+      "title": "[코스피·코스닥 전 거래일(6일) 주요공시]",
+      "link": "https://www.yna.co.kr/view/AKR20261106178600008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-08T21:05:01+00:00"
+    },
+    {
+      "title": "서울 아파트 84㎡ vs 59㎡ 가격차 1억7천만원…1년새 30%↓",
+      "link": "https://www.yna.co.kr/view/AKR20261108023200003",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:01:01+00:00"
+    },
+    {
+      "title": "서울관, 바르셀로나 스마트시티 전시서 352만달러 수출상담",
+      "link": "https://www.yna.co.kr/view/AKR20261108039200004",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:00:06+00:00"
+    },
+    {
+      "title": "서울시, 마곡·창동 창업허브 입주기업 25곳 모집",
+      "link": "https://www.yna.co.kr/view/AKR20261108039800004",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:00:06+00:00"
+    },
+    {
+      "title": "대법 \"차사고 렌터비, 사용가치 같은 차 시장요금 기준으로\"",
+      "link": "https://www.yna.co.kr/view/AKR20261108042500004",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:00:03+00:00"
+    },
+    {
+      "title": "롯데百, 버번 위스키 팝업 운영…롯데온은 겨울 패션 할인전",
+      "link": "https://www.yna.co.kr/view/AKR20261108043400030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T21:00:02+00:00"
+    },
+    {
+      "title": "\"민주당 싹쓸이에 뜬다\"…월가가 점찍은 수혜 종목 [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202611093502i",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T20:59:58+00:00"
+    },
+    {
+      "title": "퇴출 코인이 범죄자금 세탁 수단으로…장외거래 '사각지대'",
+      "link": "https://www.yna.co.kr/view/AKR20261107001000002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T20:57:00+00:00"
+    },
+    {
+      "title": "교통사고 경상환자 '8주 이상 치료할래요' 하루 600건씩 접수",
+      "link": "https://www.yna.co.kr/view/AKR20261108001200002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T20:55:01+00:00"
+    },
+    {
+      "title": "저축은행 대·중견기업 대출 처음 5조 넘어…1년새 50%↑",
+      "link": "https://www.yna.co.kr/view/AKR20261108037600002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T20:53:00+00:00"
+    },
+    {
+      "title": "4대 은행 내년 정보보호예산 확대…신한 1천150억·하나 1천억",
+      "link": "https://www.yna.co.kr/view/AKR20261107053400002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T20:51:00+00:00"
+    },
+    {
+      "title": "與 \"정부에 '실거주 구분 없이 종부세 공제 14억' 강력히 요구\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261108048252001",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T12:24:39+00:00"
+    },
+    {
+      "title": "與 \"정부에 '실거주 구분 없이 종부세 공제 14억' 강력히 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20261108048251001",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-08T10:50:12+00:00"
+    },
+    {
+      "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
+      "link": "https://www.hankyung.com/article/2026110833407",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T10:23:56+00:00"
+    },
+    {
+      "title": "티어니 르루 IDA 부문장 \"데이터센터 유치 前 산업기반부터 갖춰야\"",
+      "link": "https://www.hankyung.com/article/2026110832831",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T09:15:53+00:00"
+    },
+    {
+      "title": "\"이러다 전기 다 빨린다\"…국가전력 30% 먹는 '흡혈귀' 정체",
+      "link": "https://www.hankyung.com/article/2026110832841",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:53:01+00:00"
+    },
+    {
+      "title": "'反데이터센터'의 역습…AI 판 흔든다",
+      "link": "https://www.hankyung.com/article/2026110833141",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:51:13+00:00"
+    },
+    {
+      "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
+      "link": "https://www.hankyung.com/article/2026110832381",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:41:53+00:00"
+    },
+    {
+      "title": "\"삼전닉스 PER 2배 불과…이익 감소 감안해도 저평가\"",
+      "link": "https://www.hankyung.com/article/2026110832391",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:39:56+00:00"
+    },
+    {
+      "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
+      "link": "https://www.hankyung.com/article/2026110832191",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:33:15+00:00"
+    },
+    {
+      "title": "뉴욕·상하이 증시, 美 소비자물가·코어위브 실적 '주목'",
+      "link": "https://www.hankyung.com/article/2026110832181",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:32:53+00:00"
+    },
+    {
+      "title": "韓 증시, 장투 자금에 달렸다 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026110832071",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:31:52+00:00"
+    },
+    {
+      "title": "中 ETF 상위권 싹쓸이…경기소비재주도 강세",
+      "link": "https://www.hankyung.com/article/2026110832001",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:29:31+00:00"
+    },
+    {
+      "title": "한화에어로 '천무', 구글 검색량 급증",
+      "link": "https://www.hankyung.com/article/2026110831901",
+      "source": "한국경제 증권",
+      "published": "2026-11-08T08:25:35+00:00"
+    }
+  ]
+}
