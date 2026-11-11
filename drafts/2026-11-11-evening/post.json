@@ -1,0 +1,158 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-11T22:18:18.564964+09:00",
+  "post": "나스닥100 선물 +1.86%… 선물은 빨간데 연준 굴스비는 물가 보고서가 '우려스러운 수준에 가깝다'래오 😬\n\n📌 오늘 밤 볼 것\n• 연준은 금리 더 올릴지 저울질 중, 연말 '빅스텝' 얘기까지 나왔어오\n• 계속 내리던 미국 주택담보대출 금리, 다시 크게 뛰었대오\n• S&P500 선물 +0.88%, 환율 1,336.25원(-0.45%), 브렌트유 $93.07(+1.73%)\n\n👀 미장 뉴스 탄 종목\n• 엔비디아 — 실적 발표 앞두고 주가 5% 반등, 젠슨 황 향한 시선은 여전\n• 닛산 — 몇 달 새 두 번째 전망 하향\n\n오늘 밤 한 줄 → 미국 소비자, 지갑은 열어도 부담 신호는 보인다는 조사\n🐱 깨알 상식: 매파 — 물가 잡으려 금리 올리자는 쪽\n더 자세한 얘기는 첫 댓글 🐾\n밤새 쌓인 미장 뉴스, 다음 장 전 아침에 정리해둘게오. 팔로우해두세오\n(투자 권유 아님, 저도 물려 있음)\n#금리",
+  "reply": "🐱 한 번 더 풀어보면\n굴스비는 미국 중앙은행인 연준 사람이에요.\n빅스텝은 금리를 평소보다 크게 한 번에 올리는 걸 말해요.\n미국 빅스텝 우려 속에 오늘 국내 국고채 금리도 뛰었어요.",
+  "card_comment": "선물은 빨간데 연준은 걱정",
+  "problems": [],
+  "attempts": 3,
+  "brief": {
+    "issues": [
+      {
+        "topic": "연준 굴스비, 물가 보고서가 '우려스러운 수준에 가깝다'고 평가… 연준은 추가 금리 인상 저울질, 국내 언론은 연준의 연말 빅스텝 가능성 거론",
+        "why": "금리 인상 우려는 미국 지수 선물과 국내 금리에 영향을 줌",
+        "headline_ids": [
+          1,
+          33,
+          67
+        ],
+        "related": [
+          "S&P500 선물",
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "4주 내리던 미국 주택담보대출 금리가 다시 크게 상승",
+        "why": "금리 부담이 실제 대출 금리로 번지는 신호",
+        "headline_ids": [
+          9
+        ],
+        "related": [
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "미국 소비자, 지출은 이어가지만 부담 신호 (CNBC/NRF 소매 모니터)",
+        "why": "소비 흐름은 미국 경기와 연결",
+        "headline_ids": [
+          10
+        ],
+        "related": [
+          "S&P500 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 엔비디아 — 실적 발표 앞두고 주가 5% 반등, 젠슨 황 향한 시선은 여전",
+        "why": "국장 반도체 쪽과 연결되는 미국 대표 AI 반도체 뉴스",
+        "headline_ids": [
+          14,
+          6
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 닛산 — 중국 업체 대응 계획 발표, 몇 달 새 두 번째 전망 하향",
+        "why": "자동차 업계 실적 부담 신호",
+        "headline_ids": [
+          2
+        ],
+        "related": []
+      }
+    ],
+    "term": "매파",
+    "term_explain": "물가를 잡으려고 금리를 올리자는 쪽",
+    "mood": "긴장"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7610.75,
+      "prev_close": 7544.25,
+      "change_pct": 0.8814660171653887,
+      "date": "2026-11-11",
+      "price_text": "7,610.75",
+      "change_text": "+0.88%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28353.25,
+      "prev_close": 27835.25,
+      "change_pct": 1.8609496950808824,
+      "date": "2026-11-11",
+      "price_text": "28,353.25",
+      "change_text": "+1.86%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1336.25,
+      "prev_close": 1342.34,
+      "change_pct": -0.45368535542410493,
+      "date": "2026-11-11",
+      "price_text": "1,336.25원",
+      "change_text": "-0.45%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 93.07,
+      "prev_close": 91.49,
+      "change_pct": 1.7269646955951456,
+      "date": "2026-11-11",
+      "price_text": "$93.07",
+      "change_text": "+1.73%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "source": "CNBC",
+      "published": "2026-11-11T13:16:31+00:00"
+    },
+    {
+      "title": "Nissan CEO breaks down how it plans to fight back against Chinese companies, after second outlook cut in months",
+      "link": "https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html",
+      "source": "CNBC",
+      "published": "2026-11-11T13:04:40+00:00"
+    },
+    {
+      "title": "Mortgage rates jump sharply higher, after easing for four straight weeks. Here's why",
+      "link": "https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html",
+      "source": "CNBC",
+      "published": "2026-11-11T12:38:32+00:00"
+    },
+    {
+      "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+      "link": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html",
+      "source": "CNBC",
+      "published": "2026-11-11T12:27:47+00:00"
+    },
+    {
+      "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "source": "CNBC",
+      "published": "2026-11-11T10:56:10+00:00"
+    },
+    {
+      "title": "매파 목소리 커진 Fed, 연말 '빅스텝' 나서나",
+      "link": "https://www.hankyung.com/article/2026111109781",
+      "source": "한국경제 증권",
+      "published": "2026-11-11T09:04:02+00:00"
+    },
+    {
+      "title": "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261111150551008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-11T07:56:47+00:00"
+    }
+  ]
+}
