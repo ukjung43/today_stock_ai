@@ -1,0 +1,123 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-11T23:24:32.008059+09:00",
+  "post": "나스닥100 선물 +1.87%… 코어위브가 AI 둔화 걱정에 15% 반박문 냈읍니다 📈\n\n📌 오늘 밤 볼 것\n• 나스닥100 선물 +1.87%, S&P500 선물 +0.94%\n• 연준 굴스비 \"물가 보고서, 걱정스러운 수준에 가깝다\"… 추가 인상 저울질은 그대로\n\n👀 미장 뉴스 탄 종목\n• 코어위브 — 실적 전망 올리자 15% 급등, AI 둔화 걱정 덜어\n• 엔비디아 — 실적 발표 앞두고 4% 반등\n\n오늘 밤 한 줄 → 국장에선 '아시아판 코어위브' 기대를 받은 네이버가 이 뉴스와 연결돼오\n\n🐱 깨알 상식: 가이던스 — 회사가 직접 내놓는 \"앞으로 이 정도 벌 것 같아요\" 전망\n\n더 자세한 얘기는 첫 댓글 🐾\n밤새 쌓인 미장 뉴스, 다음 장 전 아침에 정리해둘게오. 팔로우해두세오\n(투자 권유 아님, 저도 물려 있음)\n#엔비디아",
+  "reply": "🐱 한 번 더 풀어보면\n가이던스는 회사가 \"다음엔 이만큼 벌 것 같다\"고 미리 말하는 숫자예요\n코어위브가 이걸 올리자 \"AI 투자 식는 거 아냐?\" 하는 걱정이 줄었대요\n오늘 국장에선 네이버가 '아시아판 코어위브'로 불리며 외국인이 가장 많이 산 종목이었어요",
+  "card_comment": "AI 걱정에 반박문 낸 밤",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "연준 굴스비, 물가 보고서 '걱정스러운 수준에 가깝다'…추가 인상 저울질",
+        "why": "금리 부담은 그대로",
+        "headline_ids": [
+          1
+        ],
+        "related": [
+          "S&P500 선물",
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "[종목] 코어위브 — 전망 상향에 15% 급등, AI 둔화 걱정 완화",
+        "why": "AI 투자 둔화 우려를 실적 전망으로 반박",
+        "headline_ids": [
+          9
+        ],
+        "related": []
+      },
+      {
+        "topic": "[종목] 엔비디아 — 실적 발표 앞두고 4% 반등",
+        "why": "AI 대장주 흐름",
+        "headline_ids": [
+          6
+        ],
+        "related": []
+      },
+      {
+        "topic": "네이버, 외국인 순매수 1위…'아시아판 코어위브' 재평가 기대",
+        "why": "국장 연결고리",
+        "headline_ids": [
+          84
+        ],
+        "related": []
+      }
+    ],
+    "term": "가이던스",
+    "term_explain": "회사가 직접 내놓는 앞으로의 실적 전망",
+    "mood": "반등"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7615.0,
+      "prev_close": 7544.25,
+      "change_pct": 0.9378003114955069,
+      "date": "2026-11-11",
+      "price_text": "7,615.00",
+      "change_text": "+0.94%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28356.0,
+      "prev_close": 27835.25,
+      "change_pct": 1.87082925427291,
+      "date": "2026-11-11",
+      "price_text": "28,356.00",
+      "change_text": "+1.87%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1336.43,
+      "prev_close": 1342.34,
+      "change_pct": -0.44027593605195925,
+      "date": "2026-11-11",
+      "price_text": "1,336.43원",
+      "change_text": "-0.44%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 92.68,
+      "prev_close": 91.49,
+      "change_pct": 1.3006885998469997,
+      "date": "2026-11-11",
+      "price_text": "$92.68",
+      "change_text": "+1.30%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "source": "CNBC",
+      "published": "2026-11-11T14:24:28+00:00"
+    },
+    {
+      "title": "Nvidia shares rebound 4% as Huang faces scrutiny ahead of earnings",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "source": "CNBC",
+      "published": "2026-11-11T13:45:17+00:00"
+    },
+    {
+      "title": "CoreWeave stock pops 15% after outlook raise eases AI slowdown concerns",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "source": "CNBC",
+      "published": "2026-11-11T13:36:50+00:00"
+    },
+    {
+      "title": "외국인, 국내 증시서 네이버 가장 많이 샀다… \"아시아판 코어위브로 재평가 기대\"",
+      "link": "https://www.hankyung.com/article/202611110253i",
+      "source": "한국경제 증권",
+      "published": "2026-11-11T07:27:49+00:00"
+    }
+  ]
+}
