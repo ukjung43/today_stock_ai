@@ -1,0 +1,145 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-12T22:33:52.952998+09:00",
+  "post": "나스닥100 선물 -1.31%… 월가가 오늘을 '엔비디아의 어두운 날'이라 부르는 중이에오 🌑\n\n📌 오늘 밤 볼 것\n• 미 상원의원 \"中 메모리 업체 CXMT, 미국서 막아야\"\n• 트럼프 \"이란과 합의 필요 없다\"… 브렌트유 $93.67 (+0.98%)\n\n👀 미장 뉴스 탄 종목\n• 엔비디아 — 젠슨 황 거취 소식 대기, 중국 수출 규제 움직임도\n• 네비우스 — 투자비 늘리고 전망은 약하게 내놔 10% 하락\n\n📅 다가오는 지표\n• 미국 새 물가·주택 지표 대기… 국채금리 소폭 상승\n\n오늘 밤 한 줄 → CXMT·엔비디아 뉴스 둘 다 국장 반도체와 연결돼오\n\n🐱 깨알 상식: 캐펙스 — 회사가 공장·서버 같은 설비에 쓰는 투자비\n\n더 자세한 얘기는 첫 댓글 🐾\n밤새 쌓인 미장 뉴스, 다음 장 전 아침에 정리해둘게오. 팔로우해두세오\n(투자 권유 아님, 저도 물려 있음)\n#엔비디아",
+  "reply": "🐱 한 번 더 풀어보면\nCXMT는 중국 메모리 반도체 회사예요\n미국 상원의원이 이 회사를 미국 시장에서 막자고 주장했어요\n아직 의원 주장 단계라 실제로 막힌 건 아니에요\n국장에도 메모리 반도체 회사들이 있어서 같이 보게 되는 뉴스예요",
+  "card_comment": "엔비디아의 어두운 밤",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "월가 '엔비디아의 어두운 날'…젠슨 황 거취 소식 대기, 사퇴 요구·중국 수출 규제 강화 움직임",
+        "why": "AI 대장주 변수",
+        "headline_ids": [
+          5,
+          11
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "미 상원의원, 중국 메모리 업체 CXMT 미국 퇴출 촉구",
+        "why": "메모리 반도체와 연결",
+        "headline_ids": [
+          2
+        ],
+        "related": []
+      },
+      {
+        "topic": "트럼프 '이란과 합의 필요 없다'",
+        "why": "유가 변수",
+        "headline_ids": [
+          1
+        ],
+        "related": [
+          "브렌트유"
+        ]
+      },
+      {
+        "topic": "[종목] 네비우스 — 투자비 확대·약한 전망에 10% 하락",
+        "why": "AI 인프라 투자 부담",
+        "headline_ids": [
+          6
+        ],
+        "related": []
+      },
+      {
+        "topic": "새 물가·주택 지표 대기 속 국채금리 소폭 상승",
+        "why": "다가오는 지표",
+        "headline_ids": [
+          52
+        ],
+        "related": []
+      }
+    ],
+    "term": "캐펙스",
+    "term_explain": "회사가 설비에 쓰는 투자비",
+    "mood": "긴장"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7587.5,
+      "prev_close": 7640.5,
+      "change_pct": -0.6936718801125563,
+      "date": "2026-11-12",
+      "price_text": "7,587.50",
+      "change_text": "-0.69%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28099.25,
+      "prev_close": 28473.25,
+      "change_pct": -1.3135135609739002,
+      "date": "2026-11-12",
+      "price_text": "28,099.25",
+      "change_text": "-1.31%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1333.91,
+      "prev_close": 1336.61,
+      "change_pct": -0.20200357621145137,
+      "date": "2026-11-12",
+      "price_text": "1,333.91원",
+      "change_text": "-0.20%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 93.67,
+      "prev_close": 92.76,
+      "change_pct": 0.9810263044415679,
+      "date": "2026-11-12",
+      "price_text": "$93.67",
+      "change_text": "+0.98%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "‘A dark day for Nvidia’: Here’s what analysts are saying as markets brace for news on Huang's fate",
+      "link": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
+      "source": "CNBC",
+      "published": "2026-11-12T13:08:28+00:00"
+    },
+    {
+      "title": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "source": "CNBC",
+      "published": "2026-11-12T12:03:39+00:00"
+    },
+    {
+      "title": "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
+      "link": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
+      "source": "CNBC",
+      "published": "2026-11-12T13:20:12+00:00"
+    },
+    {
+      "title": "Trump says ‘we don’t need a deal with Iran’",
+      "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
+      "source": "CNBC",
+      "published": "2026-11-12T13:28:58+00:00"
+    },
+    {
+      "title": "Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook",
+      "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
+      "source": "CNBC",
+      "published": "2026-11-12T13:06:08+00:00"
+    },
+    {
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "source": "CNBC",
+      "published": "2026-11-12T07:38:45+00:00"
+    }
+  ]
+}
