@@ -1,0 +1,151 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-13T22:08:00.418644+09:00",
+  "post": "나스닥100 선물 -0.03%… 젠슨 황 떠난 엔비디아, 애플·알파벳·우버 때보다 '더 어려운 시험'이래오 📝\n\n📌 오늘 밤 볼 것\n• 연준, 올해 금리 인하 예상하다 다시 물가 싸움 대비 중이라는 보도\n• S&P500 선물 +0.20% (장중)\n• 브렌트유 $96.24(+0.44%). IEA \"러시아 원유 생산 반등, 석유 시장 다시 공급 과잉\"\n\n👀 미장 뉴스 탄 종목\n• 엔비디아 — 혼란 속 반도체주 사이 로테이션 보도\n• 마이크로소프트 — 아웃룩 장애 계속, \"복구 진전 고무적\"\n\n오늘 밤 한 줄 → 연준은 물가, 반도체는 엔비디아 소식을 보는 밤입니다\n\n🐱 깨알 상식: 로테이션 — 돈이 한 업종에서 다른 쪽으로 옮겨가는 것\n\n더 자세한 얘기는 첫 댓글 🐾\n주말에도 미국 뉴스는 쌓여오. 다음 장 열리기 전 아침에 정리해둘게오. 팔로우해두세오\n(투자 권유 아님, 저도 물려 있음)\n#엔비디아",
+  "reply": "🐱 한 번 더 풀어보면\nCNBC는 엔비디아가 젠슨 황 없는 세상과 씨름 중이라고 전했어오.\n애플·알파벳·우버는 창업자가 물러나는 큰 변화를 넘겼지만, 엔비디아는 더 어려운 시험이 될 거라는 기사도 나왔읍니다.\n러트닉 상무장관이 중국 칩 판매 건으로 증언에 동의했다는 보도도 있어요.\n국장에서는 반도체 쪽이 이 뉴스와 연결돼오.",
+  "card_comment": "젠슨 황 떠난 엔비디아",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "엔비디아, 젠슨 황이 떠난 뒤 혼란. 창업자 교체를 넘긴 애플·알파벳·우버보다 더 어려운 시험이라는 기사, 반도체주 사이 로테이션 보도, 러트닉 상무장관이 중국 칩 판매 관련 증언에 동의했다는 보도",
+        "why": "반도체 대장주 소식이라 미국 기술주 선물과 국장 반도체 쪽에 연결됨",
+        "headline_ids": [
+          3,
+          5,
+          6,
+          14,
+          43
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "연준, 올해 금리 인하를 예상했지만 이제 또 한 번의 물가 싸움에 대비 중",
+        "why": "금리 방향은 주식시장 전체와 환율에 영향",
+        "headline_ids": [
+          1
+        ],
+        "related": [
+          "S&P500 선물",
+          "원/달러 환율"
+        ]
+      },
+      {
+        "topic": "IEA: 러시아 원유 생산이 반등했고 석유 시장은 다시 공급 과잉",
+        "why": "유가는 물가와 연결됨",
+        "headline_ids": [
+          10
+        ],
+        "related": [
+          "브렌트유"
+        ]
+      },
+      {
+        "topic": "[종목] 마이크로소프트 — 아웃룩 장애 계속, 회사는 '복구 진전이 고무적'이라고 밝힘",
+        "why": "대형 기술주의 서비스 장애 소식",
+        "headline_ids": [
+          9
+        ],
+        "related": [
+          "나스닥100 선물"
+        ]
+      }
+    ],
+    "term": "로테이션",
+    "term_explain": "돈이 한 종목·업종에서 다른 쪽으로 옮겨가는 것",
+    "mood": "관망"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7630.5,
+      "prev_close": 7615.25,
+      "change_pct": 0.20025606513245364,
+      "date": "2026-11-13",
+      "price_text": "7,630.50",
+      "change_text": "+0.20%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 28376.25,
+      "prev_close": 28384.5,
+      "change_pct": -0.02906515880145566,
+      "date": "2026-11-13",
+      "price_text": "28,376.25",
+      "change_text": "-0.03%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1337.08,
+      "prev_close": 1334.36,
+      "change_pct": 0.20384304085854232,
+      "date": "2026-11-13",
+      "price_text": "1,337.08원",
+      "change_text": "+0.20%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 96.24,
+      "prev_close": 95.82,
+      "change_pct": 0.4383218534752764,
+      "date": "2026-11-13",
+      "price_text": "$96.24",
+      "change_text": "+0.44%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+      "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+      "source": "CNBC",
+      "published": "2026-11-13T13:04:08+00:00"
+    },
+    {
+      "title": "I interviewed Huang at peak ‘Jensenmania.’ Three weeks later, Nvidia is grappling with a world without him",
+      "link": "https://www.cnbc.com/2026/11/13/tech-download-jensen-huang-nvidia-departure-jensenmania.html",
+      "source": "CNBC",
+      "published": "2026-11-13T12:46:12+00:00"
+    },
+    {
+      "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
+      "source": "CNBC",
+      "published": "2026-11-13T12:44:20+00:00"
+    },
+    {
+      "title": "Outlook outage continues as Microsoft flags 'encouraging recovery progress'",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "source": "CNBC",
+      "published": "2026-11-13T12:21:41+00:00"
+    },
+    {
+      "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
+      "link": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
+      "source": "CNBC",
+      "published": "2026-11-13T12:05:22+00:00"
+    },
+    {
+      "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+      "source": "CNBC",
+      "published": "2026-11-13T10:54:40+00:00"
+    },
+    {
+      "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+      "source": "CNBC",
+      "published": "2026-11-13T08:27:07+00:00"
+    }
+  ]
+}
