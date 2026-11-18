@@ -1,0 +1,653 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-18T23:30:12.085768+09:00",
+  "today": "2026.11.18 (수)",
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7371.5,
+      "prev_close": 7359.0,
+      "change_pct": 0.16986003533088212,
+      "date": "2026-11-18",
+      "price_text": "7,371.50",
+      "change_text": "+0.17%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 27213.25,
+      "prev_close": 27075.5,
+      "change_pct": 0.5087625343945579,
+      "date": "2026-11-18",
+      "price_text": "27,213.25",
+      "change_text": "+0.51%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1331.67,
+      "prev_close": 1334.7,
+      "change_pct": -0.22701730726005787,
+      "date": "2026-11-18",
+      "price_text": "1,331.67원",
+      "change_text": "-0.23%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 89.98,
+      "prev_close": 90.37,
+      "change_pct": -0.43155914573420606,
+      "date": "2026-11-18",
+      "price_text": "$89.98",
+      "change_text": "-0.43%"
+    }
+  ],
+  "headlines": [
+    {
+      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+      "link": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:27:49+00:00"
+    },
+    {
+      "title": "Trump admin insists recent closely timed tech outages aren't connected",
+      "link": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:26:56+00:00"
+    },
+    {
+      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:20:58+00:00"
+    },
+    {
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:19:28+00:00"
+    },
+    {
+      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
+      "link": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:17:18+00:00"
+    },
+    {
+      "title": "How to get Anthropic stock — without buying the IPO",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-stock-ai.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:16:32+00:00"
+    },
+    {
+      "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:15:20+00:00"
+    },
+    {
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "source": "CNBC 경제",
+      "published": "2026-11-18T14:09:26+00:00"
+    },
+    {
+      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "link": "https://www.cnbc.com/investingclub/2026/11/18/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:06:08+00:00"
+    },
+    {
+      "title": "Hims & Hers launches new peptide treatments — while admitting there's more to learn about efficacy",
+      "link": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:02:52+00:00"
+    },
+    {
+      "title": "U.S. soldier taken into military custody over suspected spying for Russia",
+      "link": "https://www.cnbc.com/2026/11/18/us-soldier-military-custody-spy-russia.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:58:53+00:00"
+    },
+    {
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:32:33+00:00"
+    },
+    {
+      "title": "목표가 280달러 불렀다…월가가 다시 쓸어담는 '이곳' [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202611185909i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T13:31:31+00:00"
+    },
+    {
+      "title": "Target posts best sales growth in five years, raises guidance",
+      "link": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:29:33+00:00"
+    },
+    {
+      "title": "Worried about the AI bubble popping? How investing pros say to adjust your strategy",
+      "link": "https://www.cnbc.com/make-it/2026/11/18/how-to-diversify-your-portfolio-amid-ai-bubble-fears.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:19:31+00:00"
+    },
+    {
+      "title": "'세계 2위' 中콘텐츠 시장 열린다…최혜국대우에 공동제작 확대(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261118156252005",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T13:17:56+00:00"
+    },
+    {
+      "title": "Paris Hilton, Alexandria Ocasio-Cortez press House to pass Defiance Act to fight AI deepfake pornography",
+      "link": "https://www.cnbc.com/2026/11/18/paris-hilton-aoc-defiance-act-ai-porn-deep-fake-congress.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:01:16+00:00"
+    },
+    {
+      "title": "\"반도체 끝물\" vs \"AI로 1만피\"…엇갈린 전망에 개미 '혼란' [분석+]",
+      "link": "https://www.hankyung.com/article/2026111852966",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T13:00:01+00:00"
+    },
+    {
+      "title": "Booking Holdings creates new enterprise division as AI reshapes travel planning",
+      "link": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
+      "source": "CNBC",
+      "published": "2026-11-18T12:55:01+00:00"
+    },
+    {
+      "title": "Democrat Mary Peltola wins Alaska Senate election",
+      "link": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html",
+      "source": "CNBC",
+      "published": "2026-11-18T12:50:00+00:00"
+    },
+    {
+      "title": "Trump arrives in China for historic meeting with Xi, Putin",
+      "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+      "source": "CNBC",
+      "published": "2026-11-18T12:24:24+00:00"
+    },
+    {
+      "title": "IEA chief sees no 'credible pathway' back to pre-war normality in the Strait of Hormuz",
+      "link": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+      "source": "CNBC",
+      "published": "2026-11-18T12:00:01+00:00"
+    },
+    {
+      "title": "Ukraine allies reject U.S. criticism of deep strikes inside Russia ahead of Trump-Putin-Xi summit",
+      "link": "https://www.cnbc.com/2026/11/18/ukraine-russia-war-trump-putin-deep-strikes.html",
+      "source": "CNBC",
+      "published": "2026-11-18T10:49:37+00:00"
+    },
+    {
+      "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "source": "CNBC",
+      "published": "2026-11-18T10:45:01+00:00"
+    },
+    {
+      "title": "황종우 해수장관 \"연락 두절 '해광호' 수색·구조에 총력\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118178500030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T10:13:35+00:00"
+    },
+    {
+      "title": "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118177100001",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T10:11:12+00:00"
+    },
+    {
+      "title": "경제계 \"한중 FTA 서비스·투자협상 타결 환영…새로운 기회\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261118156552003",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:55:44+00:00"
+    },
+    {
+      "title": "K-콘텐츠 중국 진출 탄력받는다…최혜국대우에 공동제작도 확대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261118156251005",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:49:27+00:00"
+    },
+    {
+      "title": "전인장 삼양식품 前회장, 주식 470억 매각 추진…벌금 납부 목적",
+      "link": "https://www.yna.co.kr/view/AKR20261118176400030",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T09:48:57+00:00"
+    },
+    {
+      "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
+      "source": "CNBC",
+      "published": "2026-11-18T09:45:01+00:00"
+    },
+    {
+      "title": "씨티, 내년 성장률 전망치 4.1%로 상향…\"반도체 호황 지속\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118175200002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:40:44+00:00"
+    },
+    {
+      "title": "한한령 해제 기대에 들썩…한·중 FTA 수혜주 어디?",
+      "link": "https://www.hankyung.com/article/202611185699i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:38:37+00:00"
+    },
+    {
+      "title": "DB하이텍, 429억원 규모 자사주 소각…420억원 추가취득 예고",
+      "link": "https://www.yna.co.kr/view/AKR20261118174300003",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T09:31:45+00:00"
+    },
+    {
+      "title": "'곰표 밀맥주' 세븐브로이, 법원서 회생계획 인가",
+      "link": "https://www.yna.co.kr/view/AKR20261118173900030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:29:18+00:00"
+    },
+    {
+      "title": "삼성·LG가 작정했다…하루 만에 20% 급등한 '이 주식' 정체",
+      "link": "https://www.hankyung.com/article/2026111855081",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:25:08+00:00"
+    },
+    {
+      "title": "반도체가 다했다…코스피 상장사 영업익 10% 증가",
+      "link": "https://www.hankyung.com/article/2026111855111",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:23:41+00:00"
+    },
+    {
+      "title": "코리아써키트, 기판 수주 잭팟…한달 새 주가 43% '뜀박질'",
+      "link": "https://www.hankyung.com/article/2026111855091",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:22:51+00:00"
+    },
+    {
+      "title": "하나에어로다이내믹스, 코스닥 신규 상장…오는 20일 거래 개시",
+      "link": "https://www.yna.co.kr/view/AKR20261118173400008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:21:44+00:00"
+    },
+    {
+      "title": "소프트캠프 \"넥스트페이즈 주식 20억원어치 취득…지분율 100%\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118170200008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:20:16+00:00"
+    },
+    {
+      "title": "상장사 배당 빗장 풀린다…年4회 아닌 月배당도 가능",
+      "link": "https://www.hankyung.com/article/2026111855931",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:19:16+00:00"
+    },
+    {
+      "title": "삼성웰스토리 개발 카페 '잎샘가베', 내년 초 서울에 첫 매장",
+      "link": "https://www.yna.co.kr/view/AKR20261118172800030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:15:02+00:00"
+    },
+    {
+      "title": "\"AI 수요 재확인\"…삼전닉스 웃었다",
+      "link": "https://www.hankyung.com/article/2026111855701",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:12:24+00:00"
+    },
+    {
+      "title": "\"수능날 착각하지 마세요\"...프리마켓은 휴장, 정규장은 10시부터",
+      "link": "https://www.hankyung.com/article/202611185520i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:06:03+00:00"
+    },
+    {
+      "title": "1년 만에 최저 찍은 국제 금값 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026111856061",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T09:04:05+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20261118163900011",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T09:00:01+00:00"
+    },
+    {
+      "title": "산은, 도쿄서 국내 스타트업 해외 투자 유치 지원…3년 연속",
+      "link": "https://www.yna.co.kr/view/AKR20261118171100002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:59:48+00:00"
+    },
+    {
+      "title": "[게시판] 병무청-세븐일레븐, 사회복무요원 할인혜택 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20261118165200504",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:52:14+00:00"
+    },
+    {
+      "title": "강원 청년 공공임대주택 1만호 공급에 도·시군 힘 모은다",
+      "link": "https://www.yna.co.kr/view/AKR20261118168200062",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:52:07+00:00"
+    },
+    {
+      "title": "젠슨 황 없는 엔비디아 'AI투자 불안' 잠재웠다",
+      "link": "https://www.hankyung.com/article/2026111855981",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T08:50:10+00:00"
+    },
+    {
+      "title": "전남광주시, 창업기업 지원 '테크플러스 스테이지' 개관",
+      "link": "https://www.yna.co.kr/view/AKR20261118165800054",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:40:56+00:00"
+    },
+    {
+      "title": "광화문 K-베이커리 페스티벌 '북적'…방문객 몰리며 일부 혼잡(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261118124151030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:38:51+00:00"
+    },
+    {
+      "title": "전주시의원 \"종량제봉투값 올려 재정 메우나\"…인상 계획 비판",
+      "link": "https://www.yna.co.kr/view/AKR20261118166800055",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:37:52+00:00"
+    },
+    {
+      "title": "비용 낮춘 '신한 라이트' 판매액 5000억 돌파",
+      "link": "https://www.hankyung.com/article/2026111855101",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T08:34:39+00:00"
+    },
+    {
+      "title": "미래에셋증권, AI가 시황 파악해 투자결정 도와",
+      "link": "https://www.hankyung.com/article/2026111854421",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T08:29:06+00:00"
+    },
+    {
+      "title": "신문협회 \"가업상속공제 대상서 신문·잡지 제외 법안 반대\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118164700005",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:24:20+00:00"
+    },
+    {
+      "title": "더핑크퐁컴퍼니, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118163400008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T08:19:26+00:00"
+    },
+    {
+      "title": "롯데관광개발, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118163000008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T08:19:14+00:00"
+    },
+    {
+      "title": "\"509억 부족한데 675억 남는다?\"…전주시 재정 허위 계산 '도마'",
+      "link": "https://www.yna.co.kr/view/AKR20261118155700055",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:17:45+00:00"
+    },
+    {
+      "title": "노란우산 개인정보 유출 36만여명…사업자번호·부금액 등 포함(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261118064352030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:15:49+00:00"
+    },
+    {
+      "title": "경제계 \"한중 FTA 서비스·투자협상 타결 환영…새로운 기회\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261118156551003",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:14:18+00:00"
+    },
+    {
+      "title": "\"달러 파킹 수요 늘어난다\"…KODEX 미국머니마켓액티브, 순자산 1조원 돌파",
+      "link": "https://www.hankyung.com/article/202611185357i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T08:11:31+00:00"
+    },
+    {
+      "title": "에이유브랜즈, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118160900008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T08:06:28+00:00"
+    },
+    {
+      "title": "SBS, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118159300008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T08:05:38+00:00"
+    },
+    {
+      "title": "YG엔터테인먼트, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118158900008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T08:05:27+00:00"
+    },
+    {
+      "title": "춘천 바이오 융복합 산업화 지원센터 개관…기업지원 거점 마련",
+      "link": "https://www.yna.co.kr/view/AKR20261118156800062",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:03:16+00:00"
+    },
+    {
+      "title": "증시 따라 오르내린 국고채 금리…3년물 연 3.736%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261118154551008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:00:16+00:00"
+    },
+    {
+      "title": "[게시판] 재정경제부 대외경제협력기금-시민사회 간담회",
+      "link": "https://www.yna.co.kr/view/AKR20261118135500002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:00:00+00:00"
+    },
+    {
+      "title": "청년 자립부터 노후 안전망까지…정부, 세대격차 완화 과제 논의",
+      "link": "https://www.yna.co.kr/view/AKR20261118153700002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T08:00:00+00:00"
+    },
+    {
+      "title": "충남 불법 사금융 피해 신고 1년간 16.7%↑…경찰, 주의 당부",
+      "link": "https://www.yna.co.kr/view/AKR20261118157400063",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:59:25+00:00"
+    },
+    {
+      "title": "SAMG엔터, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118158200008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:58:28+00:00"
+    },
+    {
+      "title": "하이브, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118158100008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:58:16+00:00"
+    },
+    {
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
+      "source": "CNBC 경제",
+      "published": "2026-11-18T07:57:37+00:00"
+    },
+    {
+      "title": "최혜국대우에 공동제작 대상 확대까지…K콘텐츠 中진출 '청신호'",
+      "link": "https://www.yna.co.kr/view/AKR20261118156200005",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:57:18+00:00"
+    },
+    {
+      "title": "대한상의 \"한중 FTA 서비스·투자협상 타결 환영…새로운 기회\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118156500003",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:52:24+00:00"
+    },
+    {
+      "title": "다음달 코스피200 '물갈이'…가온전선 들어오고 ○○○ 나간다",
+      "link": "https://www.hankyung.com/article/202611185290i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T07:52:00+00:00"
+    },
+    {
+      "title": "CJ ENM, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118155800008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:46:32+00:00"
+    },
+    {
+      "title": "한국금융지주 \"한국투자증권 주식 6천500억원에 추가취득\"",
+      "link": "https://www.yna.co.kr/view/AKR20261118155600008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:46:20+00:00"
+    },
+    {
+      "title": "썸에이지, 115억원 유상증자…예주산업 등에 제3자배정",
+      "link": "https://www.yna.co.kr/view/AKR20261118155100008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:45:19+00:00"
+    },
+    {
+      "title": "하나투어, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118155200008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:44:21+00:00"
+    },
+    {
+      "title": "JYP엔터테인먼트, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118154600008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:43:59+00:00"
+    },
+    {
+      "title": "아틀라스 이어 또 CES 주인공?…급등한 로봇주, 더 오를까",
+      "link": "https://www.hankyung.com/article/202611185064i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T07:43:25+00:00"
+    },
+    {
+      "title": "국고채 금리 대체로 상승…3년물 연 3.736%",
+      "link": "https://www.yna.co.kr/view/AKR20261118154500008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:42:22+00:00"
+    },
+    {
+      "title": "삼성전기 32% 빠질 때 43% 뛴 코리아써키트…수주 두 배에 증설 효과까지",
+      "link": "https://www.hankyung.com/article/202611185201i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T07:40:06+00:00"
+    },
+    {
+      "title": "3분기 코스피 영업익 75% '삼전닉스'…코스닥 10곳 중 6곳 적자",
+      "link": "https://www.hankyung.com/article/202611184862i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T07:33:02+00:00"
+    },
+    {
+      "title": "[표] 코스피 지수선물·옵션 시세표(18일)-3",
+      "link": "https://www.yna.co.kr/view/AKR20261118152100008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:31:12+00:00"
+    },
+    {
+      "title": "[표] 코스피 지수선물·옵션 시세표(18일)-2",
+      "link": "https://www.yna.co.kr/view/AKR20261118152300008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:30:57+00:00"
+    },
+    {
+      "title": "[표] 코스피 지수선물·옵션 시세표(18일)-1",
+      "link": "https://www.yna.co.kr/view/AKR20261118152200008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:30:29+00:00"
+    },
+    {
+      "title": "농식품부, 토마토 바이러스 피해·김장철 배추 수급 상황 점검",
+      "link": "https://www.yna.co.kr/view/AKR20261118073600030",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:30:00+00:00"
+    },
+    {
+      "title": "[게시판] 신복위·전주지법, '취약채무자 신속면책' 협약",
+      "link": "https://www.yna.co.kr/view/AKR20261118151300002",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:29:27+00:00"
+    },
+    {
+      "title": "디어유, 애프터마켓서 12%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118151200008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:28:23+00:00"
+    },
+    {
+      "title": "에스엠, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118150600008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:27:16+00:00"
+    },
+    {
+      "title": "노머스, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118149100008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:26:28+00:00"
+    },
+    {
+      "title": "스튜디오드래곤, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118149000008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:26:13+00:00"
+    },
+    {
+      "title": "두산퓨얼셀 등 11개 종목 코스피200 편입…OCI 등 12개 편출",
+      "link": "https://www.yna.co.kr/view/AKR20261118148800008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:26:01+00:00"
+    },
+    {
+      "title": "Senators press acting U.S. Navy Secretary on Iran war costs, sailor health in confirmation hearing",
+      "link": "https://www.cnbc.com/2026/11/18/us-iran-navy-hormuz-war-cao.html",
+      "source": "CNBC",
+      "published": "2026-11-18T07:24:06+00:00"
+    },
+    {
+      "title": "한국투자증권, 6천500억원 주주배정 유상증자 결정",
+      "link": "https://www.yna.co.kr/view/AKR20261118148500008",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:23:39+00:00"
+    },
+    {
+      "title": "위메이드맥스, 애프터마켓서 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261118147400008",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:22:04+00:00"
+    },
+    {
+      "title": "오늘의 프리미엄9 콘텐츠 다이제스트(11월 18일)",
+      "link": "https://www.hankyung.com/article/202611185165i",
+      "source": "한국경제 증권",
+      "published": "2026-11-18T07:20:20+00:00"
+    },
+    {
+      "title": "강릉시 벤처펀드 투자설명회…운용사 3곳 1:1 상담",
+      "link": "https://www.yna.co.kr/view/AKR20261118147100062",
+      "source": "연합뉴스 경제",
+      "published": "2026-11-18T07:20:16+00:00"
+    },
+    {
+      "title": "메가커피 관계사 보라티알, 해태htb 인수 우선협상대상자 선정",
+      "link": "https://www.yna.co.kr/view/AKR20261118136800030",
+      "source": "연합뉴스 마켓+",
+      "published": "2026-11-18T07:14:01+00:00"
+    }
+  ]
+}

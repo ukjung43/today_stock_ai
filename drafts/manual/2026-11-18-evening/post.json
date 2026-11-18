@@ -1,0 +1,157 @@
+{
+  "slot": "evening",
+  "created_at": "2026-11-18T23:30:12.085768+09:00",
+  "post": "나스닥100 선물 +0.51%… 연준 월러가 '빅스텝으로 시장을 놀래켜야 할 수도'래오 😨\n\n📌 오늘 밤 볼 것\n• 연준 월러 \"한 번에 크게 올리는 금리 인상 필요할 수도\"\n• 앤트로픽 상장, 개인 투자자 관심이 스페이스X 데뷔급\n• 트럼프, 시진핑·푸틴과 회담하러 중국 도착\n\n👀 미장 뉴스 탄 종목\n• 타깃 — 5년 만에 최고 매출 성장, 가이던스 상향\n• 로우스 — 주택시장 부진에도 전망 상향\n• 엔비디아 — 젠슨 황, 상원 은행위원회 출석 동의\n\n오늘 밤 한 줄 → 금리는 긴장, 유통주 실적은 선방… 국장에선 금리 뉴스가 성장주 쪽과 연결돼오\n\n🐱 깨알 상식: 매파 — 물가 잡으려고 금리를 올리자는 쪽\n\n더 자세한 얘기는 첫 댓글 🐾\n밤새 쌓인 미장 뉴스, 다음 장 전 아침에 정리해둘게오. 팔로우해두세오\n(투자 권유 아님, 저도 물려 있음)\n#금리",
+  "reply": "🐱 한 번 더 풀어보면\n월러는 미국 금리를 정하는 연준 쪽 인사예요\n금리를 한 번에 크게 올려서 시장을 놀라게 해야 할 수도 있다고 했어요\n실제로 미국 주택담보대출 금리는 3주 만에 최고로 올랐고, 대출 수요는 줄었대요\n아직 발언 단계라 실제로 금리를 올린 건 아니에요",
+  "card_comment": "연준이 겁주는 밤",
+  "problems": [],
+  "attempts": 1,
+  "brief": {
+    "issues": [
+      {
+        "topic": "연준 월러, 빅스텝으로 시장 놀라게 해야 할 수도",
+        "why": "금리 인상 경계",
+        "headline_ids": [
+          12
+        ],
+        "related": [
+          "S&P500 선물",
+          "나스닥100 선물"
+        ]
+      },
+      {
+        "topic": "앤트로픽 IPO 개인 투자자 관심, 스페이스X 데뷔급",
+        "why": "AI 상장 이벤트",
+        "headline_ids": [
+          3
+        ],
+        "related": []
+      },
+      {
+        "topic": "트럼프, 시진핑·푸틴과 회담 위해 중국 도착",
+        "why": "지정학 변수",
+        "headline_ids": [
+          21
+        ],
+        "related": []
+      },
+      {
+        "topic": "[종목] 타깃 — 5년 만에 최고 매출 성장, 가이던스 상향",
+        "why": "소비 실적",
+        "headline_ids": [
+          14
+        ],
+        "related": []
+      },
+      {
+        "topic": "[종목] 로우스 — 주택시장 부진에도 전망 상향",
+        "why": "소비 실적",
+        "headline_ids": [
+          4
+        ],
+        "related": []
+      },
+      {
+        "topic": "[종목] 엔비디아 — 젠슨 황 상원 은행위 출석 동의",
+        "why": "AI 대장주 변수",
+        "headline_ids": [
+          1
+        ],
+        "related": []
+      }
+    ],
+    "term": "매파",
+    "term_explain": "물가 잡으려고 금리를 올리자는 쪽",
+    "mood": "긴장"
+  },
+  "quotes": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P500 선물",
+      "kind": "index",
+      "price": 7371.5,
+      "prev_close": 7359.0,
+      "change_pct": 0.16986003533088212,
+      "date": "2026-11-18",
+      "price_text": "7,371.50",
+      "change_text": "+0.17%"
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "나스닥100 선물",
+      "kind": "index",
+      "price": 27213.25,
+      "prev_close": 27075.5,
+      "change_pct": 0.5087625343945579,
+      "date": "2026-11-18",
+      "price_text": "27,213.25",
+      "change_text": "+0.51%"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "원/달러 환율",
+      "kind": "fx",
+      "price": 1331.67,
+      "prev_close": 1334.7,
+      "change_pct": -0.22701730726005787,
+      "date": "2026-11-18",
+      "price_text": "1,331.67원",
+      "change_text": "-0.23%"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "브렌트유",
+      "kind": "usd",
+      "price": 89.98,
+      "prev_close": 90.37,
+      "change_pct": -0.43155914573420606,
+      "date": "2026-11-18",
+      "price_text": "$89.98",
+      "change_text": "-0.43%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:32:33+00:00"
+    },
+    {
+      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:20:58+00:00"
+    },
+    {
+      "title": "Trump arrives in China for historic meeting with Xi, Putin",
+      "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+      "source": "CNBC",
+      "published": "2026-11-18T12:24:24+00:00"
+    },
+    {
+      "title": "Target posts best sales growth in five years, raises guidance",
+      "link": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-18T13:29:33+00:00"
+    },
+    {
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:19:28+00:00"
+    },
+    {
+      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+      "link": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:27:49+00:00"
+    },
+    {
+      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
+      "link": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
+      "source": "CNBC",
+      "published": "2026-11-18T14:17:18+00:00"
+    }
+  ]
+}
